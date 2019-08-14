@@ -1,0 +1,83 @@
+<!doctype html>
+
+<html>
+<head>
+	<title>Santam Legal | search results</title> 
+	<meta charset="UTF-8">
+  	<meta name="description" content="Santam Legal">
+  	<meta name="keywords" content="Santam Legal">
+  	<meta name="author" content="Decimal Agency">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<link rel="stylesheet" href="Framework/styles.css">
+  	<link rel="icon" type="image/x-icon" href='contents/Images/favicon.ico'>
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+  	<link rel="stylesheet" href="Framework/responsive.css">
+  	<link rel="stylesheet" href="Framework/Bootstrap/css/bootstrap.min.css">
+  	<link rel="stylesheet" href="Framework/Bootstrap/css/bootstrap-slider.css">
+  	<link rel="stylesheet" href="Framework/bootstrapCustom.css">	 
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	
+  <script type='text/javascript' src="https://www.eyecon.ro/bootstrap-slider/js/bootstrap-slider.js"></script>
+<!--  slider Sections -->
+<!--   	<link rel="stylesheet" type="text/css" href="https://www.eyecon.ro/bootstrap-slider/css/slider.css"> -->
+<!-- END -->
+</head>
+<body>
+	<div class="headerSection"></div>
+
+	<div class="space13020 searchSection">
+		<h3><b><span class="count">0</span></b> Results found for "<span class="searchfor"></span>"</h3>
+	</div>
+
+	<div class="row space13020 grayRow searchResults">
+		<div class="col-md-12">
+			<h2><b>Santam</b> Who we are</h2>
+			<p>Santam is the leading general insurer in South Africa with a market share of more than 22%. We provide a diverse range of general insurance products and services in southern Africa and internationally through a network of 2 700 intermediaries and direct channels. We serve more than 1 million policyholders who range from individuals to commercial and specialist business owners and institutions...<span>
+			<br><br>
+			<a href="https://www.santam.co.za/about-us/who-we-are/" style="color:#898077" target="_blank">Read more</a></p>
+		</div> 
+	</div>
+<!-- 	<div class="sliderSection"></div> -->
+<!-- 	<div class="chooseCoverSection" id="registerSection"></div> -->
+<!-- 	<div class="theBenefitsTestimonialSection"></div> -->
+<!-- 	<div class="BlogSection"></div> -->
+	<div class="FooterSection"></div>
+</body>
+<!-- <footer class="footer"></footer> -->
+<script>
+	$(document).ready(function(){
+			$(".headerSection" ).load( "contents/pages/header.html");
+			$(".sliderSection" ).load( "contents/pages/slideShow.html");
+			$(".chooseCoverSection" ).load( "contents/pages/coverSelection.html");
+			$(".theBenefitsTestimonialSection" ).load( "contents/pages/benefitsTestimonials.html");
+			$(".BlogSection" ).load( "contents/pages/blog.html");
+			$(".FooterSection" ).load( "contents/pages/footer.html");
+			
+			$('.searchResults').hide();
+			
+			$(".searchfor").html(GetParameter("q"));
+			
+			console.log($(".searchfor").val());
+			if(GetParameter("search") == "Santam"){
+				$('.count').html("1");
+				$('.searchResults').show();
+			}	
+	});
+
+	function GetParameter(parameter) {
+    var result = null,
+        tmp = [];
+    	location.search.substr(1).split("&").forEach(function (item) {
+          tmp = item.split("=");
+          if (tmp[0] === parameter){ 
+//           		result = decodeURIComponent(tmp[1]);
+          		result = decodeURIComponent(tmp[1]).replace(/\+/g, " ");
+          	}
+        });
+    	return result;
+	}
+	
+	
+</script>
+

@@ -1,0 +1,1813 @@
+@media only screen and (min-width : 1024px) and (max-width : 1680px){
+.space13020{
+    padding-left: 45px !important; 
+    padding-right: 45px !important;
+    }
+.space140 {
+    padding: 60px !important;
+}
+.MobileNav{
+        display: block !important;
+    }
+    
+.mainpageCover h3{
+    font-size: 1.5em !important;
+}   
+.MobileNav > .space13020{
+	padding-right: 0px !important;
+}
+.contactSection span{
+    zoom: 1.3 !important;
+}
+.LaptopMenu{
+    display:none !important;
+    }
+.DoIqualify .numbers{
+	font-weight:bold;
+	font-size:5em;
+    }
+.DoIqualify .col-md-9{
+	padding-left:30px !important;
+}
+   .mainpageCover .col-md-2{
+	padding-right:10px !important;
+    padding-left:10px !important;   
+   } 
+   .mainpageCover .font-16{
+       font-size:16px !important;
+   }
+   .onlineSelectionsRow img{
+   	width:30% !important;
+   }
+   /* 
+.sectionNameRow{
+       padding-left:30px !important;
+   }
+ */
+   .testimonials{
+       padding-top:380px !important;
+   }
+   .footerBox{
+       margin-right:39px !important;
+   }
+   .popupCall{
+       width: 26% !important;
+       top:34% !important;
+       right:6% !important;
+   }
+   .topNav img.img-responsive.logo{
+       width: 50% !important;
+       margin-left:50px !important;
+   }
+   .contentsCovers p{
+       margin-bottom:35px !important;
+   }
+   .caption h1{
+	font-size:5em !important;
+	padding-bottom:6px !important;	
+    }
+.caption p{
+	font-size:18px !important;
+}
+   .contentCover{
+       margin-left:-5% !important;
+      margin-top:10px !important;
+   }
+   .addons h1{
+       font-size:4em !important;
+   }
+   .bottomSectionMain h3{
+       font-size:20px !important;   
+   }
+   .label-ifnot{
+	padding-bottom:10px;
+   }
+   .parabutton{
+   	margin-top:60% !important;
+   }
+   	.col-md-6.personal{
+		padding-right:10px !important;
+	}
+	.paratext {
+    height: 40px;
+    padding-top: 20px !important;
+    /* margin-bottom: 10px; */
+    }
+}
+@media only screen and (min-width : 1024px) and (max-width : 1440px){
+    #BottomHeaderButtons{
+        padding-left: 14% !important;
+    }
+    .popupCall {
+        width: 26% !important;
+        top: 35% !important;
+        right: 14% !important;
+    }
+    .benefitsCols{
+        padding:100px 60px 100px 60px !important;
+    }
+    .HomParabutton{
+	margin-top:10% !important;
+	}
+	.parabutton{
+   	margin-top:80% !important;
+   }
+   
+}
+@media only screen and (max-width : 1385px){
+	.businessCoverSection h1{
+    	margin-top: 11% !important;
+	}
+	.DoIqualify{
+		padding:20px;
+	}
+	.curret {
+    position: absolute;
+    left: 45.1%;
+    }
+    .DoIqualify .col-md-2{
+		padding:0px !important;
+	}
+	.range-labels li{
+		font-size:12px !important;
+	}
+	.HomParabutton{
+	margin-top:10% !important;
+	}
+	.MaincoverSection h1{
+		margin-top:7% !important;
+	}
+	.businesscalcu{
+	padding-top:15px;
+	width:100%;
+}
+}		
+@media only screen and (max-width : 1024px){
+	.DoIqualify .col-md-9 {
+     padding-left: 0px !important; 
+	}
+	.DoIqualify .col-md-2{
+		padding:0px !important;
+	}
+	.businesscalcu{
+	padding-top:15px;
+	width:71%;
+}
+	.DoIqualify .col-md-1 {
+     padding:10px !important; 
+	}
+	.carousel-control {
+    position: absolute;
+    top: 95% !important;
+    bottom: 6% !important;
+    left: 0;
+    width: 92% !important;
+}
+	.DoIqualify .numbers{
+		font-size:2em;
+	}
+	.businessCoverSection h1 {
+    margin-top: 21% !important;	
+	}		
+	.MaincoverSection h1{
+		margin-top: 20% !important;
+	}
+	.Loginbtn{
+		    width: 120px !important;
+    		margin-left: 9px !important;
+	}
+	.caption h1{
+	font-size:3em !important;
+	padding-bottom:6px !important;	
+    }
+    .caption p{
+	font-size:16px !important;
+	}
+	.paratextBusiness {
+    height: 242px;
+    padding-top: 2px !important;
+}
+	.caption button.btn.bnt-primary.plainBtn.longbtn.btn-lg{
+	padding:10px !important;
+	margin:0px;
+	font-size:14px !important;
+	}
+	.mainpageCover h3 {
+		font-size:1.2em !important;
+	}
+	.paratextBusiness {
+    height: 210px;
+    padding-top: 2px !important;
+	}
+	.testimonials {
+		background-position:50% 0% !important;
+	}
+	.icon-center {
+    	margin-left: -2.1% !important;
+	}
+	.longbtn{
+		padding-right:10px !important;
+		padding-left:10px !important;
+	}
+	button.btn.bnt-primary.plainBtn{
+	margin:0px;
+	}
+	.bottom_rowSection{
+		padding-top:10px;
+	}
+	.btnEqual{
+		margin-top:2px !important;
+	}
+	.col-md-6.personal{
+		padding-right:10px !important;
+	}
+	 .parabutton{
+   		margin-top:129% !important;
+   	
+   }
+   .popupCall{
+       width: 26% !important;
+       top:34% !important;
+       right:14% !important;
+   }
+}
+@media only screen and (min-width : 468px) and (max-width : 768px) and (orientation : landscape) {
+p{
+	font-size:14px !important;
+}
+.whyInsure > .col-sm-12{
+	padding-top:0px !important;
+}
+.BusinessLegalCoverSlider,.EmplopyeeSlider,.TurnoverSlider{
+	width:95% !important;
+}
+.BusinessLegalCoverSliderLabel{
+	width: 160% !important;
+}
+	.iconMenu {
+    	display:block !important;
+    	cursor: pointer;
+    	width: 6.1%;
+    	position: absolute;
+/* 	    top: 55.7%; */
+		top:15.7em;
+	}
+.bottomNav {
+    	padding-top: 35px;
+    	padding-bottom: 30px;
+    }
+.TurnoverSliderLabel{
+		width: 115% !important;
+	}
+	.BusinessLegalInsurance .icon-center {
+    margin-left: -9% !important;
+}
+.priceRangeSliders{
+	padding-left:20px !important
+	}
+	.DoIqualify {
+    padding: 8px 40px 11px 40px !important;
+}
+.DoIqualify .numbers {
+    float: left;
+}
+.row.claimSelection button {
+    margin: 1px;
+}
+.CoverSelection > .col-md-6 {
+    border: none !important;
+}
+.EmplopyeeSliderLabel{
+	width:135% !important;
+}
+.row.BusinesslegalCoverWhatyouCovered img {
+    width: 81% !important;
+}
+.navbar-top{
+	margin-top:0px !important;
+	margin-left: 2% !important;
+}
+.space13020{
+    padding-left: 30px !important; 
+    padding-right: 30px !important;
+    }
+    .space140 {
+    padding: 20px !important;
+}
+.carousel-control {
+    position: absolute;
+    top: 86% !important;
+    background: none !important;
+    bottom: 6% !important;
+    left: 0;
+    width: 81% !important;
+}
+div#navbarSupportedContent {
+    padding-top: 3% !important
+    margin-left:20px;
+}
+.navbar-right {
+    padding-top: 0% !important;
+    margin-top:0px !important;
+    margin-left: 60% !important;
+}
+.navbar-right {
+    margin-top: 0% !important;
+}
+form.form-inline.my-2.my-lg-0.Searchform {
+    margin-top: 0% !important;
+    margin-left: 2.2% !important;
+}
+.topNav{
+	font-size:9px;
+	letter-spacing:0px!important;
+}
+    .DoIqualify .col-md-2{
+		padding:0px !important;
+	}
+.MobileNav{
+        display: none !important;
+    }
+.LaptopMenu{
+    display:none !important;
+    }
+    
+.footerBox {
+    background: #bfbfbf;
+    border-radius: 10px;
+    padding: 30px;
+    margin-right: 200px;
+    font-weight: 400 !important;
+    margin-top: 0px;
+}
+.MaincoverSection {
+	padding-bottom:0px !important;
+}
+.mainpageCover h1 {
+    font-size: 3em;
+}
+.CovermainIS {
+    padding: 0px !important;
+}
+#registerSection .mainpageCover p {
+    padding: 0px 20px 0px 21px !important;
+}
+#registerSection .mainpageCover .col-md-3 {
+    padding: 5px 0px 30px 0px !important;
+}
+.HomParabutton {
+    margin-top: -11% !important;
+}
+.mainBenefits h1 {
+    font-weight: 100;
+    padding-bottom: 25px;
+    font-size: 35px;
+}
+.MaincoverSection h1 {
+    margin-top: 0% !important;
+    margin-left: 3% !important;
+}
+.mainBenefits {
+    text-align: center;
+    color: #fff;
+    padding: 50px 30px 70px 30px; 
+}
+.homeCatchUp{
+	padding:30px !important;
+}
+.MaincoverSection{
+	padding-top:5% !important;
+	padding-left:10px !important;
+	padding-right:10px !important;
+	padding-bottom:0px
+}
+.col-md-6.personal{
+	padding-right:20px !important;
+}
+.Searchform{
+	margin-top:0px !important;
+}
+.personal p{
+	padding:0px !important;
+}
+.DoIqualify .numbers{
+	font-weight:bold;
+	font-size:2em;
+    }
+.DoIqualify .col-md-9, .col-md-8 {
+	padding-left:0px !important;
+	padding-right:0px !important;
+}
+.DoIqualify .col-md-9 > p, .col-md-8 > p{
+	margin-top:0px !important;
+}
+   .mainpageCover .col-md-2{
+	padding-right:10px !important;
+    padding-left:10px !important;   
+   } 
+   .mainpageCover .font-16{
+       font-size:12px !important;
+   }
+    .mainpageCover button{
+    	font-size:12px !important;
+    }
+    .sectionNameRow {
+    padding-top: 40px !important;
+    padding-bottom: 60px !important;
+}
+.benefitsCols {
+    padding: 18px 20px 22px 20px !important;
+}
+.benefitsCols h1{
+	font-size:25px !important;
+}
+.benefitsCols p{ 
+	font-size:12px;
+}/* 
+.sectionNameRow{
+       padding-left:30px !important;
+   }
+ */
+  .testimonials {
+    padding-top: 380px;
+    padding-bottom: 0px !important;
+    text-align: center;
+    background-position: 50% 0% !important;
+}
+   .bottomSectionMain .space140{
+       padding:20px !important;
+   }
+   .footerBox{
+       margin-right:39px !important;
+   }
+   .popupCall{
+       width: 26% !important;
+       top:40% !important;
+       right:14% !important;
+   }
+   .topNav{
+   		padding:0px !important;
+   }
+   .topNav img.img-responsive.logo{
+        width: 25% !important;
+    	margin-left: 20px !important;
+   }
+   .contentsCovers p{
+       margin-bottom:35px !important;
+   }
+   
+div#registerSection h3{
+	font-size:17px;
+	padding: 0px 0px 0px 0px !important;
+    font-size: 2.2em !important;
+}
+   .caption {
+    position: absolute;
+    top: 17% !important;
+    left: 5%;
+	}
+   .caption h1{
+	font-size:1.4em !important;
+	padding-bottom:1px !important;	
+    }
+.caption p{
+	font-size:12px !important;
+}
+.mainpageCover p {
+    text-align: center;
+    font-size: 11px !important;
+}
+.caption button.btn.bnt-primary.plainBtn.longbtn.btn-lg{
+	padding:10px !important;
+	margin:0px;
+	font-size:12px !important;
+}
+   .contentCover{
+       margin-left:-5% !important;
+      margin-top:10px !important;
+   }
+   .addons h1{
+       font-size:4em !important;
+   }
+   .bottomSectionMain h3{
+       font-size:20px !important;   
+   }
+   .label-ifnot{
+		padding-bottom:10px;
+   }
+	.footer h3 {
+		font-size: 16px;
+	}
+	.footer a{
+		font-size:14px !important;
+	}
+	.contentMain {
+   	 	margin-top: 10%;
+	}
+	.contactSection, .onlineOption {
+	    padding: 20px !important;
+	}	
+	.contactMail{
+		margin-left:10%;
+	}
+	.onlineSelectionsRow .col-md-4 {
+	    padding: 20px;
+	}
+	
+}
+@media only screen and (min-width : 468px) and (max-width : 768px)and (orientation : portrait){
+p{
+	font-size:14px !important;
+}
+.whyInsure > .col-sm-12{
+	padding-top:0px !important;
+}
+.BusinessLegalCoverSlider,.EmplopyeeSlider,.TurnoverSlider{
+	width:95% !important;
+}
+.BusinessLegalCoverSliderLabel{
+	width: 160% !important;
+}
+.TurnoverSliderLabel{
+		width: 115% !important;
+	}
+	.BusinessLegalInsurance .icon-center {
+    margin-left: -9% !important;
+}
+.priceRangeSliders{
+	padding-left:20px !important
+	}
+	.DoIqualify {
+    padding: 8px 40px 11px 40px !important;
+}
+
+.DoIqualify .numbers {
+    float: left;
+}
+.CoverSelection > .col-md-6 {
+    border: none !important;
+}
+.EmplopyeeSliderLabel{
+	width:135% !important;
+}
+.row.BusinesslegalCoverWhatyouCovered img {
+    width: 81% !important;
+}
+.navbar-top{
+	margin-top:0px !important;
+	margin-left: 2% !important;
+}
+.space13020{
+    padding-left: 30px !important; 
+    padding-right: 30px !important;
+    }
+    .space140 {
+    padding: 20px !important;
+}
+.carousel-control {
+    position: absolute;
+    top: 86% !important;
+    background: none !important;
+    bottom: 6% !important;
+    left: 0;
+    width: 81% !important;
+}
+div#navbarSupportedContent {
+    padding-top: 3% !important
+    margin-left:20px;
+}
+.navbar-right {
+    padding-top: 0% !important;
+    margin-top:0px !important;
+    margin-left: 60% !important;
+}
+form.form-inline.my-2.my-lg-0.Searchform {
+    margin-top: 0% !important;
+    margin-left: 2.2% !important;
+}
+.topNav{
+	font-size:9px;
+	letter-spacing:0px!important;
+}
+    .DoIqualify .col-md-2{
+		padding:0px !important;
+	}
+.MobileNav{
+        display: none !important;
+    }
+.LaptopMenu{
+    display:none !important;
+    }
+    
+.footerBox {
+    background: #bfbfbf;
+    border-radius: 10px;
+    padding: 30px;
+    margin-right: 200px;
+    font-weight: 400 !important;
+    margin-top: 0px;
+}
+.MaincoverSection {
+	padding-bottom:0px !important;
+}
+.mainpageCover h1 {
+    font-size: 3em;
+}
+.CovermainIS {
+    padding: 0px !important;
+}
+#registerSection .mainpageCover p {
+    padding: 0px 20px 0px 21px !important;
+}
+#registerSection .mainpageCover .col-md-3 {
+    padding: 5px 0px 30px 0px !important;
+}
+.HomParabutton {
+    margin-top: -11% !important;
+}
+.mainBenefits h1 {
+    font-weight: 100;
+    padding-bottom: 25px;
+    font-size: 35px;
+}
+.MaincoverSection h1 {
+    margin-top: 0% !important;
+    margin-left: 3% !important;
+}
+.mainBenefits {
+    text-align: center;
+    color: #fff;
+    padding: 50px 30px 70px 30px; 
+}
+.homeCatchUp{
+	padding:30px !important;
+}
+.MaincoverSection{
+	padding-top:5% !important;
+	padding-left:10px !important;
+	padding-right:10px !important;
+	padding-bottom:0px
+}
+.col-md-6.personal{
+	padding-right:20px !important;
+}
+.Searchform{
+	margin-top:0px !important;
+}
+.personal p{
+	padding:0px !important;
+}
+.DoIqualify .numbers{
+	font-weight:bold;
+	font-size:2em;
+    }
+.DoIqualify > .col-md-9, .DoIqualify > .col-md-8 {
+	padding-left:0px !important;
+	padding-right:0px !important;
+}
+.claimSelection > .col-md-8 {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+.DoIqualify .col-md-9 > p, .col-md-8 > p{
+	margin-top:0px !important;
+}
+   .mainpageCover .col-md-2{
+	padding-right:10px !important;
+    padding-left:10px !important;   
+   } 
+   .mainpageCover .font-16{
+       font-size:12px !important;
+   }
+    .mainpageCover button{
+    	font-size:12px !important;
+    }
+    .sectionNameRow {
+    padding-top: 40px !important;
+    padding-bottom: 60px !important;
+}
+.benefitsCols {
+    padding: 18px 20px 22px 20px !important;
+}
+.benefitsCols h1{
+	font-size:25px !important;
+}
+.benefitsCols p{ 
+	font-size:12px;
+}/* 
+.sectionNameRow{
+       padding-left:30px !important;
+   }
+ */
+  .testimonials {
+    padding-top: 380px;
+    padding-bottom: 0px !important;
+    text-align: center;
+    background-position: 50% 0% !important;
+}
+   .bottomSectionMain .space140{
+       padding:20px !important;
+   }
+   .footerBox{
+       margin-right:39px !important;
+   }
+   .popupCall{
+       width: 26% !important;
+       top:40% !important;
+       right:14% !important;
+   }
+   .topNav{
+   		padding:0px !important;
+   }
+   .topNav img.img-responsive.logo{
+        width: 25% !important;
+    	margin-left: 20px !important;
+   }
+   .contentsCovers p{
+       margin-bottom:35px !important;
+   }
+   
+div#registerSection h3{
+	font-size:17px;
+	padding: 0px 0px 0px 0px !important;
+    font-size: 1.4em !important;
+}
+   .caption {
+    position: absolute;
+    top: 17% !important;
+    left: 5%;
+	}
+   .caption h1{
+	font-size:1.4em !important;
+	padding-bottom:1px !important;	
+    }
+.caption p{
+	font-size:12px !important;
+}
+.mainpageCover p {
+    text-align: center;
+    font-size: 11px !important;
+}
+.caption button.btn.bnt-primary.plainBtn.longbtn.btn-lg{
+	padding:10px !important;
+	margin:0px;
+	font-size:12px !important;
+}
+   .contentCover{
+       margin-left:-5% !important;
+      margin-top:10px !important;
+   }
+   .addons h1{
+       font-size:4em !important;
+   }
+   .bottomSectionMain h3{
+       font-size:20px !important;   
+   }
+   .label-ifnot{
+		padding-bottom:10px;
+   }
+	.footer h3 {
+		font-size: 16px;
+	}
+	.footer a{
+		font-size:14px !important;
+	}
+	.contentMain {
+   	 	margin-top: 10%;
+	}
+	.contactSection, .onlineOption {
+	    padding: 20px !important;
+	}	
+	.contactMail{
+		margin-left:10%;
+	}
+	.onlineSelectionsRow .col-md-4 {
+	    padding: 20px;
+	}
+	
+}
+
+
+@media screen and (min-width : 468px) and (max-width : 768px) and (orientation : landscape){
+	.MaincoverSection h1 {
+    	margin-top: 17% !important;
+    	margin-left: 3% !important;
+	}
+	.carousel-control{
+		display:none !important;
+	}
+}
+@media only screen and (min-width : 0px) and (max-width : 468px){
+.MainSectionRow{
+	display:none;
+}
+
+.SectionFAQWhite .col-md-6 {
+    padding: 20px 60px 10px 60px !important;
+}
+.mobilePopupLogin{
+	width:80% !important;
+}
+.imgConsumerPC{
+	display:none !important;
+}
+.imgMobi{
+	display:block!important;
+}
+p{
+	font-size:14px !important;
+}
+.contentTall {
+    padding: 40px !important;
+}
+ 
+.row.space13020.yellowbg.contentSplitSection {
+    padding: 0px;
+}
+.contentSplitSection .col-md-10 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: #fff;
+}
+.SectionFAQWhite .col-md-6 {
+    padding: 27px 50px 0px 50px !important;
+}
+.secondedrow1 .col-md-6 {
+    padding: 61px !important;
+}
+.consumer6Right {
+    padding-left: 10px !important;
+}
+.ultagsBar .col-md-6 {
+    padding: 20px 35px 20px 20px !important;
+}
+.ClaimingRowCols .col-md-6 {
+    padding: 20px 0px 20px 0px;
+}
+.aboveFaQ {
+    padding: 210px 0px 0px 0px;
+}
+.consumerRow2 .colm1 {
+    padding: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+    }
+.consumerRow2 .colm2,.consumerRow3 .colm2{
+    padding-right: 40px;
+    padding-left: 40px !important;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.definitionRow,.LegalExpenseDefinition,.definitionLegalContent,.definitionmicroSMEContent,.definitionHomeContent{
+    padding: 20px;
+    }
+.definitions .col-md-6{
+	padding:40px !important;
+	padding-top:10px !important;
+	padding-bottom:10px !important;	
+}
+.definitions{
+	font-size:40px
+}
+.col-md-6.spaiclaCOlo {
+    padding: 40px 50px 40px 60px !important;
+}
+.range-labels small{
+	display:none;
+	color:#756d64;
+}
+small{
+	color:#756d64;
+}
+.DoIqualify .numbers {
+    float: left;
+}
+.BusinessLegalBenefits img{
+	width: 80% !important;
+}
+.carousel-control{
+		display:none !important;
+	}
+.whyInsure > .col-sm-12{
+	padding-top:0px !important;
+}
+.navbar-top{
+	margin-top:0px !important;
+	margin-left: 2% !important;
+}
+.mainpageCover .col-md-2 {
+    	padding: 0px 0px 10px !important;
+    } 
+.space13020{
+    padding-left: 30px !important; 
+    padding-right: 30px !important;
+    } 
+    .space140 {
+    padding: 20px !important;
+}
+.mainpageCover img{
+	width:30% !important;
+}
+
+.consumerRow1 {
+    padding: 50px;
+}
+.consumerRow2 {
+    background-position: 0px;
+ }
+.consumerRow3 .colm1 {
+    padding-top: 60px;
+    padding-left: 50px;
+    padding-bottom: 60px;
+} 
+.whyneedInsurance {
+    padding: 60px;
+}
+.insu0, .insu3, .insu5, .insu7,.consumerRow3 .colm1,.contentSplitSection .col-md-12 {
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+    padding-left: 40px !important;
+}
+.TypeOfperson,.Suit_me,.selectInsureCompany,.nowWhatScroll,.ClaimingRow,.FAQ,.whatsExcess,.unfairlyTreated{
+    padding: 50px 30px 30px 30px;
+ }
+ .ClaimFraudA {
+    padding-top: 3px !important;
+    padding-bottom: 63px !important;
+}
+ .ultagsBar .col-md-6 {
+    padding: 50px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+ .productSuit .col-md-6,.SelectInsureCompanyySplit .col-md-6{
+    padding-top: 40px;
+    padding-bottom: 40px;
+	}	
+.secondedrow{
+	padding-left:20px;
+	padding-right:20px;
+}
+.ImgSector {
+    padding: 200px;
+}
+ .contentTall {
+    padding: 40px !important;
+    padding-top: 50px !important;
+}
+ 
+.BusinessLegalInsurance .icon-center{
+	margin-left: 37% !important;
+}
+.side{
+	display:none !important;
+}
+.bottom{
+	display:none !important;
+}
+.legalExpenseWhatyouCovered img{
+	width:90% !important;
+}
+.whyInsure{
+	padding-top:0px !important;
+}
+.mainpageCover h3 {
+    font-size: 2em !important;
+}
+	.paratext {
+    	height: 10px;
+    	padding-top: 0px !important;
+    	margin-bottom: 0px;
+	}
+	.parabutton {
+    	margin-top: 25% !important;
+}
+.BusinessLegalCoverSlider,.EmplopyeeSlider,.TurnoverSlider{
+	width: 95% !important;
+}
+.BusinessLegalCoverSliderLabel{
+	width:155% !important;
+}
+.TurnoverSliderLabel{
+	width:113% !important;
+}
+.EmplopyeeSliderLabel{
+	width:133% !important;
+}
+.LRSSlider{
+	width:79% !important;
+}
+.priceRangeSliders{
+	padding-left: 20px !important;
+	}
+.BusinessLegalInsurance p{
+	padding-left:10px !important;
+}
+.personalAccidentSlider{
+	width:88% !important;
+}
+.BusinessLegalInsurance .col-md-6{
+	border:none !important;
+}
+.carousel-control {
+    position: absolute;
+    top: 65% !important;
+    background: none !important;
+    bottom: 6% !important;
+    left: 0;
+    width:70% !important;
+}
+div#navbarSupportedContent {
+    padding-top: 3% !important
+    margin-left:20px;
+}
+.navbar-right {
+    padding-top: 0% !important;
+    margin-top:0px !important;
+    margin-left: 70% !important;
+}
+form.form-inline.my-2.my-lg-0.Searchform {
+    margin-top: 0% !important;
+    margin-left: 2.2% !important;
+}
+input.form-control.mr-sm-2.search {
+	width:94% !important;
+}
+.caption p {
+    padding-bottom: 0px;
+}
+.topNav{
+	font-size:9px;
+	letter-spacing:0pc !important;
+	padding:0px !important;
+}
+    .DoIqualify .col-md-2{
+		padding:0px !important;
+	}
+.MobileNav{
+        display: none !important;
+    }
+.LaptopMenu{
+    display:none !important;
+    }
+    
+.footerBox {
+    background: #bfbfbf;
+    border-radius: 10px;
+    padding: 30px;
+    margin-right: 200px;
+    font-weight: 400 !important;
+    margin-top: 0px;
+}
+.MaincoverSection {
+	padding-bottom:0px !important;
+}
+.mainpageCover h1 {
+    font-size: 2.3em;
+}
+.CovermainIS {
+    padding: 0px !important;
+}
+#registerSection .mainpageCover p {
+    padding: 0px 20px 0px 21px !important;
+}
+#registerSection .mainpageCover .col-md-3 {
+    padding: 5px 0px 30px 0px !important;
+}
+.HomParabutton {
+    margin-top: -11% !important;
+}
+.mainBenefits h1 {
+    font-weight: 100;
+    padding-bottom: 25px;
+    font-size: 35px;
+}
+.MaincoverSection h1 {
+    margin-top: 0% !important;
+    margin-left: 3% !important;
+}
+.mainBenefits {
+    text-align: center;
+    color: #fff;
+    padding: 50px 30px 70px 30px; 
+}
+.homeCatchUp{
+	padding:30px !important;
+}
+.MaincoverSection{
+	padding-top:5% !important;
+	padding-left:10px !important;
+	padding-right:10px !important;
+	padding-bottom:0px
+}
+.col-md-6.personal{
+	padding-right:20px !important;
+}
+.Searchform{
+	margin-top:0px !important;
+}
+.personal p{
+	padding:0px !important;
+}
+.DoIqualify .numbers{
+	font-weight:bold;
+	font-size:2em;
+    }
+.DoIqualify .col-md-9, .col-md-8 {
+	padding-left:0px !important;
+	padding-right:0px !important;
+}
+.DoIqualify .col-md-9 > p, .col-md-8 > p{
+	margin-top:0px !important;
+}
+   .mainpageCover .col-md-2{
+	padding-right:10px !important;
+    padding-left:10px !important;   
+   } 
+   .mainpageCover .font-16{
+       font-size:12px !important;
+   }
+    .mainpageCover button{
+    	font-size:12px !important;
+    }
+    .sectionNameRow {
+    padding-top: 40px !important;
+    padding-bottom: 60px !important;
+}
+.benefitsCols {
+    padding: 18px 20px 22px 20px !important;
+}
+.benefitsCols h1{
+	font-size:25px !important;
+}
+.benefitsCols p{ 
+	font-size:12px;
+}/* 
+.sectionNameRow{
+       padding-left:30px !important;
+   }
+ */
+  .testimonials {
+    padding-top: 380px;
+    padding-bottom: 0px !important;
+    text-align: center;
+    background-position: 50% 0% !important;
+}
+   .bottomSectionMain .space140{
+       padding:20px !important;
+   }
+   .footerBox{
+       margin-right:39px !important;
+   }
+   .popupCall {
+    width: 56% !important;
+    top: 10% !important;
+    right: 14% !important;
+    z-index:1000;
+}
+   .topNav img.img-responsive.logo{
+        width: 25% !important;
+    	margin-left: 20px !important;
+   }
+   .contentsCovers p{
+       margin-bottom:35px !important;
+   }
+   .videosSection {
+    padding: 0px !important;
+}
+
+.videosSection .panel.panel-body {
+    padding: 0px !important;
+}
+.row.claimSelection button {
+    margin: 1px;
+}
+div#registerSection h3{
+	font-size:17px;
+	padding: 0px 0px 0px 0px !important;
+}
+   .caption {
+    position: absolute;
+    top: -4% !important;
+    left: 5%;     
+    width:70%;
+	}
+   .caption h1{
+	font-size:1.4em !important;
+	margin-bottom:0px !important;
+	padding-bottom:1px !important;	
+    }
+.caption p{
+	font-size:8px !important;
+}
+.contactSection, .onlineOption {
+    padding: 20px;
+}
+.contactSection h1{
+	font-size:30px;
+}
+.mainpageCover p {
+    text-align: center;
+    font-size: 11px !important;
+}
+span.icon-contactus,span.icon-general,span.icon-fraud {
+    zoom: 1 !important;
+    margin-top:10px;
+}
+.caption button.btn.bnt-primary.plainBtn.longbtn.btn-lg{
+	padding:4px !important;
+	margin:0px;
+	font-size:8px !important;
+}
+   .contentCover{
+       margin-left:-5% !important;
+      margin-top:10px !important;
+   }
+   .addons h1{
+       font-size:4em !important;
+   }
+   .bottomSectionMain h3{
+       font-size:20px !important;   
+   }
+   .label-ifnot{
+	padding-bottom:10px;
+   }
+	.footer h3 {
+		font-size: 16px;
+	}
+	.footer a{
+		font-size:14px !important;
+	}
+}
+
+@media only screen and(min-width: 992px){
+ .whyInsure h1{
+   		margin-top:20% !important;
+   }
+}
+/* Tablets and Mobiles*/
+@media only screen and (max-width: 768px) and (min-width: 468px) and (orientation: portrait){
+	/* 
+.navbar-top {
+    	margin-top: 6% !important;
+    	margin-left: 2% !important;
+	}
+ */
+	/* 
+.topNav img.img-responsive.logo {
+    	width: 78% !important;
+	}
+ */
+	/* 
+.navbar-right {
+    	padding-top: 10% !important;
+	}
+	form.form-inline.my-2.my-lg-0.Searchform {
+    	margin-top: 10% !important;
+	}
+ */
+	/* 
+.topNav {
+    	padding: 0px 16px 0px 5px !important;
+	}
+ */
+ .row.yellowbg.bottomNav.ExtraMenu.space13020 {
+    padding: 20px;
+}
+ .row.space13020.yellowbg.contentSplitSection{
+ 	padding:0px 30px 0px 30px   !important;
+ }
+ .definitionRow,.LegalExpenseDefinition,.definitionLegalContent,.definitionmicroSMEContent,.definitionHomeContent{
+    padding: 140px;
+    }
+.aboveFaQ{
+	padding:0px;
+}
+.definitions .col-md-6{
+	padding-top:20px;
+	padding-bottom:20px
+}
+
+.contentTall {
+    padding: 40px !important;
+}
+ .insu0, .insu3, .insu5, .insu7,.consumerRow3 .colm1,.contentSplitSection .col-md-12 {
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+    padding-left: 40px !important;
+}
+.SectionFAQWhite .col-md-6 {
+    padding: 27px 50px 0px 50px !important;
+}
+.secondedrow .col-md-6, .secondedrow1 .col-md-6,.faqa .col-md-6{
+	padding-left:40px !important;
+	padding-right:40px !important;
+}
+.faqa .col-md-6{
+	padding-left:40px !important;
+	padding-right:40px !important;
+}
+.selectInsureCompany,.ClaimFraudA{
+    padding: 62px 40px 40px 30px;
+}
+.ClaimFraudA {
+    padding-top: 0px !important;
+    padding-bottom: 60px !important;
+}
+.col-md-6.spaiclaCOlo {
+    padding: 16px 60px 40px 50px !important;
+}
+.ultagsBar .col-md-6{
+	padding:50px;
+}
+ .carousel-control{
+		display:none !important;
+	}
+	.consumerRow2 .colm1 {
+    	padding: 40px;
+	}
+	.consumerRow2 {
+    background-position: 0px !important;
+    
+    }
+	.iconMenu {
+		display:block !important;
+	}
+	.TypeOfperson,.Suit_me,.selectInsureCompany,.nowWhatScroll,.ClaimingRow,.FAQ,.whatsExcess,.unfairlyTreated,.ClaimFraudA{
+    	padding: 100px 80px 100px 100px;
+    }
+	.consumerRow1 {
+    	padding: 80px;
+ 	}
+ 	.parabutton {
+    	margin-top: 0% !important;
+	}
+	.whyneedInsurance {
+    	padding: 90px;
+    }
+    
+    .consumer6Right{
+    	padding:10px !important;
+    }
+    .consumerRow2 .colm2,.consumerRow3 .colm2{
+    	padding-right: 40px !important;
+    	padding-left: 40px !important;
+	    padding-top: 40px !important;
+    	padding-bottom: 40px !important;
+    }
+    .productSuit .col-md-6,.SelectInsureCompanyySplit .col-md-6{
+    	padding-top:50px;
+    	padding-bottom:50px;
+    	padding: 1  0px;
+    }
+	.iconMenu {
+    	width: 7.1%;
+    	position: absolute;
+    	font-size: 13px;
+    	color: #fff;
+    	top	: 18.9%;
+    	right: 3%;
+	}
+}
+@media only screen and (max-height: 1024px) and (min-width: 768px) and (orientation: portrait){
+	.iconMenu {
+    	width: 7.1%;
+    	position: absolute;
+    	font-size: 13px;
+    	color: #fff;
+    	top	: 7.9em;
+    	right: 3%;
+	}
+	.topNav img.img-responsive.logo {
+    	width: 85% !important;
+    	margin-left: 20px !important;
+	}
+	.carousel-control{
+		display:none !important;
+	}
+	.navbar-top {
+    	margin-top: 8% !important;
+	}
+	.navbar-right {
+    	padding-top: 17% !important;
+	}
+	form.form-inline.my-2.my-lg-0.Searchform {
+    	margin-top: 21% !important;
+	}
+	.topNav {
+    	padding: 0px 13px 0px 6px !important;
+	}
+}
+@media only screen and (max-height: 960px) and (min-width: 468px) and (orientation: portrait){
+	.iconMenu {
+    	width: 7.1%;
+    	position: absolute;
+    	font-size: 13px;
+    	color: #fff;
+    	top	: 20.1% !important;
+    	right: 3%;
+	}
+	.carousel-control{
+		display:none !important;
+	}
+}
+@media only screen and (max-height: 800px) and (min-width: 480px) and (orientation: portrait){
+	.iconMenu {
+    	width: 7.1%;
+    	position: absolute;
+    	font-size: 13px;
+    	color:#fff;
+    	top: 18.8%;
+	}
+}
+@media screen and (min-width : 0px) and (max-width : 480px) and (orientation : portrait){
+	.navbarMobile{
+		display:block;
+	}
+	.paratextBusiness {
+    	height: 60px;
+    	padding-top: 2px !important;
+	}
+	.navbarMobile{
+		display:block;
+	}
+	.carousel-control{
+		display:none !important;
+	}
+	.LegalExpenseControlTrigger p,.ContentsControlTrigger p,.homeControlTriger p{
+		border:none !important;
+		padding: 0px !important;
+	}
+	.LegalExpenseControlTrigger img, .ContentsControlTrigger img{
+		width: 40% !important;
+		
+	}
+	.caption {
+    	position: absolute;
+	    top: 5% !important; 
+    	left: 5%;
+	}
+	.topNav{
+		display:none !important;
+	}
+	.LegalInsuranceSlider,.ContentsSlider,.personalAccidentContentsSlider,.LegalContentSlider,.BuildingSlider,.PersonalAccidentsSlider,.LegalCoverSlider{
+		width:95% !important;
+	}
+	.homeControlTriger img{
+		width:50% !important;
+		float: left !important;
+	}
+	.homeControlTriger > .ContentSlider{
+		width:95% !important;
+	}
+	.GeyserSlider{
+		width:81% !important;
+	}
+	.LegalInsuranceSlider{
+		width:95% !important;
+	}
+	.LegalInsuranceLabel,.ContentsLabel,.BuildingSliderLabel,.ContentSliderLabel{
+		width:105% !important;
+	}
+	
+	.addLRSContent > .col-md-2{
+		margin-top:0px !important;
+	}
+	.addLRSContent > .col-md-7{
+		margin-top:0px !important;
+	}
+	.addLRSContent > .col-md-3{
+		margin-top:0px !important;
+	}
+	
+	.curret {
+    	left: 33.1%;
+	}
+	.MobileNav{
+/* 		display:block !important; */
+	}
+	.businessCovers > .MaincoverSection h1 {
+    	margin-top: 0% !important;
+    	margin-left: 4% !important;
+	}
+	.mainpageCover p {
+		padding: 10px !important;
+	}
+	.businessCovers {
+    	padding: 0px !important;
+	}
+	.iconMenu {
+    	display:none !important;
+	}
+	body{
+		font-size:10px !important;
+	}
+	input.form-control.mr-sm-2.search {
+    	width: 97%;
+	}
+	.navbar-default{
+		background:#fff !important;
+		border-color:#fff !important;
+	}
+	.navbar-inverse{
+/* 		background:#fff !important; */
+		} 
+	.navbarMobile{
+		display:block !important;
+	}
+	.mobileLogo {
+    	display: block;
+    	width: 28% !important;
+    	margin-left: 2%;
+    	margin-bottom: -10%;
+    	margin-top: -2%;
+	}
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    	border-color: #fff !important;
+    	padding-top: 6px;
+	}
+}
+/* HERE */
+@media screen and (min-width : 0px) and (max-width : 480px) and (orientation : landscape){
+	.navbarMobile{
+		display:block;
+	}
+	.navbarMobile{
+		display:block;
+	}
+	.carousel-control{
+		display:none !important;
+	}
+	.caption {
+    	position: absolute;
+	    top: 5% !important;
+    	left: 5%;
+	}
+	.topNav{
+		display:none !important;
+	}
+	.MobileNav{
+/* 		display:block !important; */
+	}
+	.iconMenu {
+    	display:none !important;
+	}
+	body{
+		font-size:10px !important;
+	}
+	input.form-control.mr-sm-2.search {
+    	width: 97%;
+	}
+	.navbar-default{
+		background:#fff !important;
+		border-color:#fff !important;
+	}
+	.navbar-inverse{
+/* 		background:#fff !important; */
+		} 
+	.navbarMobile{
+		display:block !important;
+	}
+	.mobileLogo {
+    	display: block;
+    	width: 28% !important;
+    	margin-left: 2%;
+    	margin-bottom: -10%;
+    	margin-top: -2%;
+	}
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    	border-color: #fff !important;
+    	padding-top: 6px;
+	}
+}
+
+@media only screen  and (min-width: 800px) and (max-width : 1280px) and (orientation: portrait) {
+  	.tabletLandscape{
+  		display:block !important;
+  	}
+  	.carousel-control{
+		display:none !important;
+	}
+  	.LaptopMenu{
+  		display:none !important;
+  	}
+  	.space13020 {
+    	padding-left: 20px !important;
+    	padding-right: 80px !important;
+	}
+	.space140 {
+    	padding: 50px !important;
+	}
+	.mainpageCover p {
+    	text-align: center;
+    	font-size: 12px;
+	}
+	.whyInsure h1 {
+    	margin-top: 20% !important;
+	}
+	.testimonials {
+	    padding-top: 250px;
+    	padding-bottom: 120px;
+	}
+	.mainBenefits {
+    	padding: 10px 50px 40px 30px;
+	}
+	.footer a {
+    	color: #fff;
+    	font-size: 12px !important;
+    }
+    .footer p{
+    	font-size: 12px;
+    }
+    .font-18 {
+    	font-size: 12px !important;
+	}
+	.btnEqual {
+   	 	width: 140px;
+	}
+	.topNav img.img-responsive.logo {
+    	width: 90%;
+    	margin-left: 15px;
+	}
+	.navbar-top {
+    	margin-top: 10% !important;
+	}
+	.popupCall {
+    width: 26% !important;
+    top: 19% !important;
+    right: 7% !important;
+}
+	.topNav {
+    	font-size: 10px;
+	}
+	.navbar-right {
+    	margin-top: 17% !important;
+	}
+	form.form-inline.my-2.my-lg-0.Searchform {
+    	margin-top: 21% !important;
+	}
+	.bottomSectionMain .col2 {
+    	background-size: 141%;
+	}
+	.btn {
+    	font-size: 12px;
+	}
+}
+@media screen  and (min-width: 601px) and (max-width : 961px) and (orientation: landscape) {
+  	.tabletLandscape{
+  		display:block !important;
+  	}
+  	.LaptopMenu{
+  		display:none !important;
+  	}
+  	.contactSection span{
+    	zoom: 1 !important;
+    	margin-top: 13%;
+	}
+  	 .onlineSelectionsRow img{
+   		width:30% !important;
+   }
+  	.space13020 {
+    	padding-left: 20px !important;
+    	padding-right: 80px !important;
+	}
+	.space140 {
+    	padding: 50px !important;
+	}
+	.mainpageCover p {
+    	text-align: center;
+    	font-size: 12px;
+	}
+	.whyInsure h1 {
+    	margin-top: 20% !important;
+	}
+	.testimonials {
+	    padding-top: 250px;
+    	padding-bottom: 120px;
+	}
+	.mainBenefits {
+    	padding: 10px 50px 40px 30px;
+	}
+	.footer a {
+    	color: #fff;
+    	font-size: 12px !important;
+    }
+    .footer p{
+    	font-size: 12px;
+    }
+    .font-18 {
+    	font-size: 12px !important;
+	}
+	.btnEqual {
+   	 	width: 140px;
+	}
+	.topNav img.img-responsive.logo {
+    	width: 90%;
+    	margin-left: 15px;
+	}
+	.navbar-top {
+    	margin-top: 10% !important;
+	}
+	.paratext {
+    	height: 91px !important;
+    	padding-top: 0px !important;
+    }
+    .paratextBusiness {
+    	height: 240px;
+    	padding-top: 2px !important;
+	}
+    .mainpageCover h3 {
+    	font-size: 1em !important;
+	}
+	.topNav {
+    	font-size: 10px;
+	}
+	.mainpageCover .col-md-2 {
+		padding:0px 4px 20px 3px !important;
+	}
+	.navbar-right {
+    	margin-top: 17% !important;
+	}
+	form.form-inline.my-2.my-lg-0.Searchform {
+    	margin-top: 21% !important;
+	}
+	.bottomSectionMain .col2 {
+    	background-size: cover;
+	}
+	.btn {
+    	font-size: 12px;
+	}
+}
+/* 
+
+@media screen  and (min-width: 735px) and (min-height : 413px) and (orientation: landscape) {
+	body{
+		background:red !important;
+		}
+}
+ */
+@media only screen and (min-width: 375px) and (max-width: 736px) and (orientation: landscape) { 
+	.navbar-top {
+    	margin-top: 0% !important;
+	}
+	.navbar-right {
+    	margin-top: 5% !important;
+	}
+	.tabletLandscape{
+		display:none !important;
+	}
+	.whyInsure h1 {
+    	margin-top: 1% !important;
+	}
+	.MaincoverSection h1 {
+    	margin-top: 0% !important;
+    	margin-left: 3% !important;
+	}
+	form.form-inline.my-2.my-lg-0.Searchform {
+    	margin-top: 0% !important;
+	}
+	.carousel-control{
+		display:none !important;
+	}
+}
+
+/* Kepping data hidden if landscape
+ */
+ @media only screen and (min-width : 1024px) and (max-width : 1385px) and (orientation : portrait){
+ 	.tabletLandscape{
+ 		display:none !important;
+ 	}
+ 		.iconMenu{
+ 		display:none !important;
+ 	}
+ }
+ @media only screen and (min-width : 1024px) and (max-width : 1680px){ }
+ @media only screen and (min-width : 1024px) and (max-width : 1440px) and (orientation : portrait){
+ 	.tabletLandscape{
+ 		display:none !important;
+ 	}
+ }
+/* 
+
+ @media only screen and (min-width : 468px) and (max-width : 768px){}
+ @media screen and (min-width : 468px) and (max-width : 768px) and (orientation : landscape){}
+ @media only screen and (min-width : 0px) and (max-width : 468px){}
+ 
+ 
+ @media only screen and (max-width: 768px) and (min-width: 468px) and (orientation: portrait){}
+ @media only screen and (max-height: 1024px) and (min-width: 768px) and (orientation: portrait){}
+ @media only screen and (max-height: 960px) and (min-width: 468px) and (orientation: portrait){}
+ @media only screen and (max-height: 800px) and (min-width: 480px) and (orientation: portrait){}
+ @media screen and (min-width : 0px) and (max-width : 480px) and (orientation : portrait){}
+ 
+ 
+ @media only screen  and (min-width: 800px) and (max-width : 1280px) and (orientation: portrait) {}
+ @media screen  and (min-width: 601px) and (max-width : 961px) and (orientation: landscape) {}
+ */
+@media 
+  (min-device-width: 800px) 
+  and (max-device-width: 1280px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+	background:red !important;
+}

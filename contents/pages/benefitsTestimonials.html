@@ -1,0 +1,78 @@
+<div class="row yellowbg mainBenefits">
+	<div class="col-md-12">
+		<h1>The <b>benefits</b> of insuring with <b>us.</b></h1>
+		<p style="padding:0px !important;margin-bottom:0px !important">Santam is the insurer of choice for millions of South Africans countrywide. We help you be safe and stay </p>
+		<p style="padding:0px !important;margin-bottom:0px !important">safe – everywhere you go. <!--If you need five more reasons to choose Insurance good and proper.-->
+		</p>
+<!-- 		<button class="btn bnt-primary plainBtn longbtn btn-lg">Read More</button/> -->
+	</div>
+</div>
+
+<!-- 
+<div class="row testimonialsVideos space13020">
+	<div class="col-md-4 col-sm-4 col-xs-12">
+		<iframe width="100%" height="105" src="https://www.youtube.com/embed/7k7piOReCLE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	</div>
+	<div class="col-md-4 col-sm-4 col-xs-12">
+		<iframe width="100%" height="105" src="https://www.youtube.com/embed/OfpEE9sa0Pc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	</div>
+	<div class="col-md-4 col-sm-4 col-xs-12">
+		<button class="btn btn-default closeBtn">Close &times;</button>
+		<iframe width="100%" height="105" src="https://www.youtube.com/embed/AYa4VuE8C4k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	</div>
+</div>
+ -->
+<div class="videoPop" style="position:relative;top:0px;width:100%;box-shadow:0.1px 0.1px 3px 0.1px #d1d1d1;z-index:10000000">
+	<div class="panel panel-body" style="margin-bottom:0px;padding:20px 10px 20px 10px;">
+		<div class="row space13020">
+			<div class="col-md-12">
+				<h1>Videos</h1>
+<!-- 				<span class="font-20 pull-right">&times;</span> -->
+				<button class="btn btn-xs pull-right closeModalPop">Close</button>
+			</div>
+		</div>
+		<div class="row videosSection space13020">
+			<div class="col-md-4 col-sm-4 col-xs-12">
+				<iframe width="100%" height="100px" src="https://www.youtube.com/embed/7k7piOReCLE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</div>
+			<div class="col-md-4 col-sm-4 col-xs-12">
+				<iframe width="100%" height="100%" src="https://www.youtube.com/embed/OfpEE9sa0Pc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</div>
+			<div class="col-md-4 col-sm-4 col-xs-12">
+				<iframe width="100%" height="100%" src="https://www.youtube.com/embed/AYa4VuE8C4k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="row testimonials">
+	<div class="col-md-12">
+		<!-- <p>Testimonials</p> -->
+	</div>
+</div>
+
+<div class="row yellowbg mainBenefits">
+	<div class="col-md-12">
+		<h1>How to <b>manage</b> your insurance.</h1>
+		<p style="padding:0px !important;margin-bottom:0px !important">Managing your insurance has never been easier with our dedicated client website and Santam app. Get quick and easy access</p>
+		<p style="padding:0px !important;margin-bottom:0px !important">to your insurance portfolio to report and track claims, view your policy details, and request adjustments to your policies.</p>
+		<p style="padding:0px !important;">It’s just another way that we do insurance good and proper.
+		</p><br>
+		<button class="btn bnt-primary plainBtn btn-lg" id="registerBottom">Choose cover</button>
+	</div>
+</div>
+
+<script>
+	$("document").ready(function(){
+		$('.videoPop').hide();
+		$('.testimonials').click(function(){
+			$('.testimonials').hide('slow');
+			$('.videoPop').toggle('slow');
+		});
+		$('.closeModalPop').click(function(){
+			$('.videoPop').hide('slow');
+			$('.testimonials').fadeIn('slow');
+		});
+		
+	});
+</script>

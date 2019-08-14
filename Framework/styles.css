@@ -1,0 +1,1801 @@
+/* //Adding Santam fonts */
+@font-face{font-family:
+"Din";src:url("../fonts/Santam Fonts/dinengschrift-webfont.eot");
+src:url("../fonts/Santam Fonts/dinengschrift-webfont.eot?#iefix") format('embedded-opentype'),
+
+url("../fonts/Santam Fonts/dinengschrift-webfont.ttf") format('truetype'),
+url("../fonts/Santam Fonts/dinengschrift-webfont.woff") format('woff');
+font-weight:normal}
+
+@font-face{font-family:
+	"DinLight";src:url("../fonts/Santam Fonts/din-light-webfont.eot");
+	src:url("../fonts/Santam Fonts/din-light-webfont.eot?#iefix") format('embedded-opentype'),
+	url("../fonts/Santam Fonts/din-light-webfont.ttf") format('truetype'),
+	url("../fonts/Santam Fonts/din-light-webfont.woff") format('woff');font-weight:normal}
+	
+@font-face{font-family:
+	"DinRegular";src:url("../fonts/Santam Fonts/din-regular-webfont.eot");
+	src:url("../fonts/Santam Fonts/din-regular-webfont.eot?#iefix") format('embedded-opentype'),
+	url("../fonts/Santam Fonts/din-regular-webfont.ttf") format('truetype'),
+	url("../fonts/Santam Fonts/din-regular-webfont.woff") format('woff');font-weight:normal}
+	
+@font-face{font-family:
+	"DinMedium";src:url("../fonts/Santam Fonts/din-medium-webfont.eot");
+	src:url("../fonts/Santam Fonts/din-medium-webfont.eot?#iefix") format('embedded-opentype'),
+	url("../fonts/Santam Fonts/din-medium-webfont.ttf") format('truetype'),
+	url("../fonts/Santam Fonts/din-medium-webfont.woff") format('woff');font-weight:normal}
+	
+@font-face{font-family:
+	"DinBlack";src:url("../fonts/Santam Fonts/din-black-webfont.eot");
+	src:url("../fonts/Santam Fonts/din-black-webfont.eot?#iefix") format('embedded-opentype'),
+	url("../fonts/Santam Fonts/din-black-webfont.ttf") format('truetype'),
+	url("../fonts/Santam Fonts/din-black-webfont.woff") format('woff');font-weight:normal}
+
+
+
+@font-face {
+    font-family: Santam-Light;
+/*     src: url("fonts/SantamFont/D-DIN.otf"); */
+    src: url("../fonts/Fonts/FFDIN/OpenType/DINOT-Thin.otf");
+}
+@font-face {
+    font-family: Santam-Regular;
+    src: url("../fonts/Fonts/FFDIN/OpenType/DINOT.otf");
+}
+@font-face {
+    font-family: SantamBold;
+    src: url("../fonts/Fonts/FFDIN/OpenType/DINOT-Bold.otf");
+}
+.ExtraMenu{
+	display:none;
+}
+.definitions .col-md-6{
+	padding:80px !important;
+}
+body{
+
+	padding:0px;
+	margin:0px;
+	color:#756d64;
+	background:#fff! important;
+	overflow-x:hidden;
+/* 	font-family:DinRegular,"Arial",Helvetica,sans-serif !important; 	 */
+	font-family:Din;
+/* 	font-weight:10 !important; */
+}
+.tabletLandscape{
+  		display:none !important;
+  	}
+b, strong{
+	font-weight:Bold;
+	font-family: DinRegular,"Arial",Helvetica,sans-serif !important;
+}
+.Nav-direct{
+	padding-top: 16px !important;
+    padding-bottom: 5px !important;
+    box-shadow: 0px 0px 2px 0px #7d7b7b;
+}
+.Nav-direct span.glyphicon.glyphicon-menu-right {
+    font-size: 10px;
+}
+.Nav-direct a{
+	text-decoration:none;
+	color:#756d64;
+}
+.Nav-direct a:hover{
+	text-decoration:none;
+}
+h1,h2,h3,h4,h5,h6{
+/* 	font-weight:100 !important; */
+	font-family:DinLight,"Arial",Helvetica,sans-serif !important;
+	color:#756d64;
+}
+p{
+	font-family: DinRegular,"Arial",Helvetica,sans-serif !important;
+	font-size:16px;
+}
+.LaptopMenu{
+    display:block !important;
+}
+.MobileNav{
+    display: none !important;
+}
+.space13020{
+    padding-left: 80px !important; 
+    padding-right: 80px !important;
+}
+.yellowbg{
+	background: #febd27 !important;
+}
+.yellowText{
+	color: #febd27 !important;
+}
+.textwhite{
+	color:#fff !important;
+}
+div#registerSection {
+    color: #756d64 !important;
+}
+.orangebtnLine{
+	border:1px solid #febd27 !important;
+	background:#febd27;
+	color:#fff;
+	margin-top:10px;
+}
+.orangebtnLine:hover{
+	background:#5e5952 !important;
+	color:#fff !important;
+	border:1px solid #5e5952 !important;
+}
+
+.orangebtn{
+	border:1px solid #febd27 !important;
+	background:#febd27 !important;
+	color:#fff !important;
+	margin-top:10px;
+}
+.orangebtn:hover{
+	background:#5e5952 !important;
+	color:#fff !important;
+	border:1px solid #5e5952 !important;
+}
+h1.sectionName {
+    font-size: 45px !important;
+}
+.curret{
+	-webkit-transform:rotate(360deg);
+	position:absolute;
+	left:46.4%;
+	margin-top:-1% !important;
+	z-index:1000 !important;
+}
+
+.curret-Upside{
+	-webkit-transform:rotate(180deg);
+	position:absolute;
+	left:46.2%;
+	margin-top:-2% !important;
+	z-index:1000 !important;
+}
+.whiteText{
+	color: #fff !important;
+}
+.darkborder{
+	border-color:#939598 !important;
+	color: #939598 !important;
+}
+.specialTextBox{
+	background:#f2f2f2 !important;
+	border-color:#fff !important;
+	border-radius: 3px !important;
+}
+.graybgColor{
+	background:#756d64;
+}
+.font-10{
+	font-size:10px !important;
+}
+.font-11{
+	font-size:11px !important;
+}
+.font-12{
+	font-size:12px !important;
+}
+.font-14{
+	font-size:14px !important;
+}
+.font-16{
+	font-size:16px !important;
+}
+.font-18{
+	font-size:18px !important;
+}
+.font-20{
+	font-size:20px !important;
+}
+.font-25{
+	font-size:25px !important;
+}
+.font-30{
+	font-size:30px !important;
+}
+.font-footer-p{
+	font-size:0.875rem;
+}
+.grayRow{
+	background :#efeff0;
+}
+.space140{
+	padding:140px !important;
+}
+.topNav{
+	background:#efefef;
+	text-transform:uppercase;
+	color:#939598;
+ 	padding:0px 50px 0px 0px;
+	font-size:13px;
+/* 	font-weight:100 !important; */
+}
+.topNav img.img-responsive.logo {
+    width: 50%;
+    margin-left:80px;
+}
+.topNav a{
+	color:#939598;
+	padding:0px 9px 10px !important
+}
+.topNav a:hover{
+	color:#756d64;
+}
+.topNav span{
+	color:#fdc427;
+}
+.navbar-right {
+	margin-top:9% !important;
+}
+.navbar-top {
+    margin-top:6% !important;
+}
+/* 
+.navbar{
+	display: inline-block !important;
+    padding-top: 15px !important;
+    margin-bottom:0px !important;  
+}
+ */
+form.form-inline.my-2.my-lg-0.Searchform {
+    margin-top:10% !important;
+}
+input.form-control.mr-sm-2.search {
+    border-radius: 3px;
+    border:2px solid #939598;
+    background:#e0e0e0;
+    color:#939598;
+    width:89%
+}
+form.form-inline.my-2.my-lg-0.plainInput {
+    margin-top: 26px !important;
+}
+input.form-control.mr-sm-2.plainInput {
+    border-radius: 3px;
+    border:2px solid #fff;
+    background:none;
+    color:#939598;
+    font-size:14px;
+}
+input[type=file] {
+    display: block;
+    padding: 4px !important;
+}
+
+.bottomNav{
+/* 	padding-top:35px; */
+/* 	padding-bottom:30px; */
+	color:#fff !important;
+/* 	font-weight:100 */
+}
+.bottomNav a{
+	color:#fff;
+}
+.bottomNav a:hover{
+	color:#2f2f2f;
+}
+.bottomNav small{
+/* 	font-weight:100; */
+	margin-top:-20px;
+}
+.row.yellowbg.bottomNav.LaptopMenu.space13020 {
+    padding-top: 10px;
+}
+.longbtn{
+	padding-left:30px !important;
+	padding-right:30px !important;
+}
+
+button.btn.bnt-primary.plainBtn{
+	background:none;
+	border:2px solid #fff;
+	border-radius:3px !important; 
+	color:#fff !important;
+	margin:2px 0px 0px 0px ;
+	
+	-webkit-transition: color 0.25s linear,
+	background-color 0.45s ease,
+	border-color 0.45s ease,
+	margin 0.25s ease;
+    transition: color 0.25s linear,
+    background-color 0.45s ease,
+    border-color 0.45s ease,
+    margin 0.25s ease;
+}
+button.btn.bnt-primary.plainBtn:hover{
+	background:#fff;
+	color:#756d64 !important;
+}
+button.btn.bnt-primary.ClientLogin,button.btn.bnt-primary.CreditPayment{
+	background:#756d64;
+	border:2px solid #fff;
+	border-radius:4px !important;
+	padding-left:30px;
+	padding-right:30px;
+	color:#fff !important;
+	
+	-webkit-transition: color 0.25s linear,
+	background-color 0.45s ease,
+	border-color 0.45s ease,
+	margin 0.25s ease;
+    transition: color 0.25s linear,
+    background-color 0.45s ease,
+    border-color 0.45s ease,
+    margin 0.25s ease;
+}
+
+button.btn.bnt-primary.ClientLogin:hover,button.btn.bnt-primary.CreditPayment:hover{
+	background:#756d64 !important;
+	border-color:#756d64 !important;
+}
+.bottomNav span{
+	color:#ffe5a4;
+}
+.btnEqual{
+	width:180px;
+}
+.btnEqualSecond{
+	width:120px;
+	margin-top: 2px;
+}
+
+.carousel-inner img {
+	width: 110%
+}
+.caption{
+	position:absolute;
+	top:27%;
+	left:15%
+}
+.caption h1{
+	color:#fff;
+	font-weight:700 !important;
+	font-size:60px;
+/* 	padding-bottom:20px; */
+/* 	font-family: DinLight,"Arial",Helvetica,sans-serif !important;	 */
+	font-family:DinLight !important;
+}
+.caption p{
+	color:#fff;
+	padding-bottom:10px;
+	font-size:16px !important;
+}
+.carousel-indicators .active{
+	background-color:#febd27 !important;
+	border:none !important;
+}
+.carousel-indicators{
+	margin-left:-30.2% !important;
+}
+.carousel-indicators li{
+	border:none !important;
+	background:#fff !important;
+	margin-left:10px !important;
+}
+.carousel-control {
+    position: absolute;
+    top: 95% !important;
+    bottom: 6% !important;
+    left: 0;
+    width: 92% !important;
+}
+.carousel-control > .glyphicon{
+	font-size: 20px !important;
+}
+.MaincoverSection{
+	padding-top:11%;
+	padding-bottom:70px;
+}
+.CoverSelectMain{
+	padding-top:10% !important;
+	padding-bottom:70px;
+}
+.MaincoverSection h1{
+	color:#756d64 !important;	
+/* 	font-weight:100 !important; */
+	font-size:45px;
+}
+.mainpageCover h3{
+	font-family: SantamBold,"Arial",Helvetica,sans-serif !important;
+	color:#756d64 !important;
+}
+.mainpageCover h3,mainpageCover p{
+	text-align:center !important;
+	padding:0px;
+    font-size: 1.6em !important;
+}
+.mainpageCover span{
+	font-size:40px;
+	color:#fff !important
+}
+.mainpageCover p{
+	text-align:center;
+	font-size:16px;
+}
+.mainpageCover .col-md-2{
+	padding:40px;
+	
+	-webkit-transition: color 0.25s linear,
+	background-color 0.45s ease,
+	border-color 0.45s ease,
+	margin 0.25s ease;
+    transition: color 0.25s linear,
+    background-color 0.45s ease,
+    border-color 0.45s ease,
+    margin 0.25s ease;
+}
+.mainpageCover .col-md-2 a{
+	color:#756d64;
+	text-decoration:none;
+	
+	-webkit-transition: color 0.25s linear,
+	background-color 0.45s ease,
+	border-color 0.45s ease,
+	margin 0.25s ease;
+    transition: color 0.25s linear,
+    background-color 0.45s ease,
+    border-color 0.45s ease,
+    margin 0.25s ease;
+}
+.mainpageCover .col-md-2.personal:hover{
+	background:#dadada !important;
+/* 	color:#fff !important; */
+cursor:pointer;
+}
+.mainpageCover .col-md-2.business:hover{
+	background:#dadada !important;
+/* 	color:#fff !important; */
+cursor:pointer;
+}
+
+
+.mainpageCover .col-md-3{
+	padding:50px;
+	
+	-webkit-transition: color 0.25s linear,
+	background-color 0.45s ease,
+	border-color 0.45s ease,
+	margin 0.25s ease;
+    transition: color 0.25s linear,
+    background-color 0.45s ease,
+    border-color 0.45s ease,
+    margin 0.25s ease;
+}
+.mainpageCover .col-md-3 a{
+	color:#756d64;
+	text-decoration:none;
+	
+	-webkit-transition: color 0.25s linear,
+	background-color 0.45s ease,
+	border-color 0.45s ease,
+	margin 0.25s ease;
+    transition: color 0.25s linear,
+    background-color 0.45s ease,
+    border-color 0.45s ease,
+    margin 0.25s ease;
+}
+.mainpageCover .col-md-3.personal:hover{
+	background:#dadada !important;
+/* 	color:#fff !important; */
+cursor:pointer;
+}
+.mainpageCover .col-md-3.business:hover{
+	background:#dadada !important;
+/* 	color:#fff !important; */
+cursor:pointer;
+}
+
+#registerSection .mainpageCover .col-md-3{
+	padding:55px 0px 70px 0px;
+}
+#registerSection .mainpageCover p{
+	padding:20px 20px 20px 20px;
+}
+.businessCovers .MaincoverSection{
+	padding-top:10% !important;	
+}
+
+.mainBenefits{
+	text-align:center;
+	color:#fff;
+	padding:50px 0px 70px 0px;
+}
+.mainBenefits h1{
+/* 	font-weight:100; */
+	padding-bottom:25px;
+	font-size:45px;
+}
+.mainBenefits p{
+	padding:0px 0px 23px 0px;
+}
+.testimonials{
+	font-size:20px;
+	color:#fff;
+	background:url(../contents/Images/Testimonials.png);
+	background-size:cover;
+	background-repeat:no-repeat;
+	padding-top:500px;
+	padding-bottom:120px;
+	text-align:center;
+}
+
+.adviceSection{
+	text-align:center;
+	padding:50px;
+}
+.adviceSection h1{
+/* 	font-weight:100; */
+	padding-bottom:15px;
+	font-size:40px;
+}
+.blogsection{
+	background: url(../contents/Images/Section-Bg.png);
+	background-size:Cover;
+	background-repeat: no-repeat;
+	color:#fff;
+	padding:120px;
+}
+.blogsection p{
+	padding-top:20px;
+}
+
+.bottomSectionMain{
+	text-align:center;
+	color:#fff;
+}
+.bottomSectionMain p{
+/* 	font-weight:100; */
+	font-size:16px;
+}
+.bottomSectionMain .col1{
+	background:url(../contents/Images/SubmitClaims.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}	
+.bottomSectionMain .col2{
+	background:url(../contents/Images/SOS-Services.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.bottomSectionMain .col3{
+	background:url(../contents/Images/Safety.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.bottomSectionMain h3{
+	text-transform:uppercase;
+	padding:5px;
+	font-size:25px !important;
+}
+.footer{
+	background:#aaaaaa;
+	padding:30px;
+/* 	font-weight:100 !important; */
+	color:#fff;
+}
+.footer h3{
+	font-weight:700 !important;	
+}
+.footer a{
+	color:#fff;
+	font-size:16px !important;
+	
+	-webkit-transition: color 0.25s linear,
+	background-color 0.45s ease,
+	border-color 0.45s ease,
+	margin 0.25s ease;
+    transition: color 0.25s linear,
+    background-color 0.45s ease,
+    border-color 0.45s ease,
+    margin 0.25s ease;
+}
+.footer a:hover{
+	color:#756d64;
+	text-decoration:none;
+}
+h1.FooterNo {
+    font-family: DinRegular !important;
+}
+.footer .fab{
+	background:#fff ;
+	padding:10px;
+	font-size:15px;
+	color:#aaaaaa;
+	border-radius:30px;
+	
+	-webkit-transition: color 0.25s linear,
+	background-color 0.45s ease,
+	border-color 0.45s ease,
+	margin 0.25s ease;
+    transition: color 0.25s linear,
+    background-color 0.45s ease,
+    border-color 0.45s ease,
+    margin 0.25s ease;
+    cursor: pointer;
+}
+.footer .fab:hover{
+	color:#fff;
+	background:#756d64;
+}
+.footerBox{
+	background:#bfbfbf;
+	border-radius:20px;
+	padding:30px;
+	margin-right:10%;
+	font-weight:400 !important;
+	margin-top:30px;
+}
+
+.popupCall{
+	color:#756d64;
+}
+
+
+/*Affect the Personal Section*/
+.mainpageCover .personal > p{
+	text-align:justify !important;
+	padding-top:6%; 
+}
+/*.mainpageCover .personal{
+	padding:30px !important;
+}*/
+.MaincoverSectionPersonal{
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.MaincoverSectionPersonal h1{
+/* 	font-weight:100 !important; */
+	font-size:45px;
+/* 	margin-top:10% !important; */
+}
+.BusinessReason{
+/* 	font-weight:100 !important; */
+/* 	font-size:45px; */
+	margin-top:10% !important;
+}
+.whyheading8{
+	margin-top:8% !important;
+}
+.col-md-6.personal {
+    padding-right: 150px !important;
+}
+.DoIqualify{
+	text-align:center;
+	padding:50px;
+	color:#756d64 !important;
+}
+.DoIqualify h1{
+	font-size:45px;
+}
+.DoIqualify h2{
+	font-size:45px;
+/* 	font-weight:100; */
+	padding:0px 0px 10px 0px;
+}
+.DoIqualify .numbers{
+	font-weight:bold;
+	font-size:6em;
+}
+.DoIqualify p{
+	text-align:left;
+	margin-top:30px;
+}
+.DoIqualify .col-md-9{
+	padding-left:30px !important;
+}
+.CoveredAgainstBg{
+	background:url(../contents/Images/PersonalBG.png);
+	background-size:cover;
+	background-repeat:no-repeat;
+	padding:50px 0px 50px 0px;
+	color:#fff !important;
+	text-align:left !important;
+}
+/* What you covered against */
+.WhatCoveredAgainst{
+	padding-top:100px !important;
+	padding-bottom:100px !important;
+	background-repeat:no-repeat;
+	background-size:cover;
+	color:#fff !important;
+	background-position:0% 50% !important;
+}
+.whatsLegalExpense{
+	background:url(../contents/Images/Banners/WhatCoverlegalExpense.jpg);	
+}
+.whatBuildingCover{
+	background:url(../contents/Images/Banners/WhatCoverPersonalBulding.jpg);	
+}
+.whatCoverContents{
+	background:url(../contents/Images/Banners/WhatCoverPersonal.jpg);	
+}
+.whatCoverBusinessLegal{
+	background:url(../contents/Images/Banners/BusinessLegalBanner.jpg);
+	background-position:0% 90% !important;	
+}
+.whatCoverBusinessSME{
+	background:url(../contents/Images/Banners/BusinessSME.jpg);	
+	background-position:0% 80% !important;
+}
+/* End here */
+.coverBenefitsheading h3{
+	font-size:45px !important;
+	text-align:center;
+}
+.coverIcons{
+		padding:20px;
+		padding-bottom:40px;
+		text-align:center;
+		color:#756d64 !important;
+}
+.coverIcons h4,.coverIcons h3, .coverIcons p{
+	color:#fff;
+/* 	font-weight:1000 !important; */
+}
+.coverIcons h3{
+	margin-bottom:60px;
+}
+.coverIcons img {
+    width: 60%;
+    margin-bottom: 20px;
+}
+.CoveredAgainst h1{
+	font-size:45px !important;
+	color:#fff;
+/* 	font-weight:100 !important; */
+}
+.CoverSelection{
+	text-align:left !important;
+}
+.CoverSelection .CoverTagline{
+/* 	font-weight:100; */
+}
+p.CoverTagline{
+	margin-bottom:0px; !important;
+	padding-bottom:0px !important; 
+}
+.CoverSelection p{
+/* 	font-weight:100; */
+}
+.CoverSelection .coverAmount{
+	font-size:30px;
+	color:#756d64;
+	/*font-weight:bold;*/
+	font-family:SantamBold,"Arial",Helvetica,sans-serif !important; 
+}
+.addons{	
+	padding-top:90px;
+	padding-bottom:60px;
+	color:#756d64;	
+}
+.addons h1{
+	font-weight:300;
+	font-size:4.2em;
+}
+.addons span{
+	/*font-weight:bold;*/
+	font-family:SantamBold,"Arial",Helvetica,sans-serif !important; 
+}
+button.btn.bnt-primary.plainBtn.darkborder{
+	color:#756d64 !important;	
+	margin-top:10%;
+}
+
+button.btn.bnt-primary.plainBtn.darkborder:hover{
+	color:#fff !important;
+	background:#756d64 !important;	
+}  
+
+.formSection{
+	background:#efefef;
+	padding-top:50px;
+	padding-bottom:50px;
+	color:#756d64 !important;
+}
+.formSection h1{
+	font-weight:100;
+	color:#756d64 !important;
+}
+.formSection p{
+	text-align:left !important; 
+	font-weight:100;
+}
+.imgMobi{
+	display:none !important;
+}
+.imgConsumerPC{
+	display:none;
+}
+.customerForm label,.payments label{
+/* 	font-weight:100; */
+	font-size:14px;
+}
+.customerForm p{
+	font-size:12px;
+}
+.form-terms{
+	position:absolute;
+	bottom:0px;
+}
+.form-terms h3{
+	color:#fdc427;
+}
+
+/*Slider section*/
+.priceRangeSliders .sectionCover{
+	margin-top:20px !important;
+	font-family:DinLight,"Arial",Helvetica,sans-serif !important; 
+}
+.sliderPriceRange p{
+	color:#808285;
+	font-weight:500;
+	margin-top:10px;
+}
+.sectionNameRow{
+	padding-top:100px !important;
+	padding-bottom:100px !important;
+	background-repeat:no-repeat;
+	background-size:cover;
+	color:#fff !important;
+	background-position:0% 50% !important;
+}
+.row.claimSelection {
+    padding-left: 20px;
+}
+/* Added Covers */
+.addedCover h1{
+	color:#fff;
+}
+.geyserBenefits{
+	text-align:center;
+	padding:50px;
+	background:#fff;
+	color:#756d64;
+}
+.geyserBenefits h1{
+	font-weight:100;
+	padding-bottom:15px;
+	font-size:40px;
+}
+
+.definitionRow{
+	background:url(../contents/Images/Banners/Definitions1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding:300px;
+	text-align:center;
+	color:#fff;
+}
+.definitionRow h1{
+    font-size: 60px;
+}
+.definitionRow p{
+    font-size: 22px;
+}
+.fstImgRow,.ZeroImgRow{
+	padding: 50px 20px 50px 20px;
+}
+/* 
+.definitionLegalContent{
+	background:url(../contents/Images/Banners/Definition2.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding:200px;
+	text-align:center;
+	color:#fff;
+}
+ */
+.definitionHomeContent{
+	background:url(../contents/Images/Banners/DefintionHome.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding:200px;
+	text-align:center;
+	color:#fff;
+}
+.headingText h1 {
+    font-size: 50px;
+}
+.definitionLegalContent{
+	background:url(../contents/Images/Banners/BusinessLegal.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding:200px;
+	text-align:center;
+	color:#fff;
+}
+
+.LegalExpenseDefinition{
+	background:url(../contents/Images/Banners/Definition2.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding:200px;
+	text-align:center;
+	color:#fff;
+}
+.definitionmicroSMEContent{
+	background:url(../contents/Images/Banners/Slider6.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding:200px;
+	text-align:center;
+	color:#fff;
+}
+.legalExpenseWhatyouCovered{
+	padding:40px;
+	padding-bottom:50px;
+	text-align:center;
+/* 	background:#efeff0 !important; */
+	color:#756d64;
+}
+legalExpenseWhatyouCovered p{
+	height:20px !important; 
+}
+.businessLegal h3,.MicroSME h3,.LegalExpenseDefintion h3,.BusinessMicroSME h3{
+	padding:20px 0px 20px 0px;
+}
+.businessLegal p,MicroSME p{
+/* 	padding:10px 0px 10px 0px; */
+}
+.consumerRow1{
+	background:url(../contents/Images/Consumer/mini/Knowledge.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding:200px;
+	text-align:center;
+	color:#fff;
+}
+.consumerRow1 p{
+	height:20px !important; 
+}
+.consumerRow1 h1{
+	font-size: 50px;
+}
+.consumerRow2{
+	background:url(../contents/Images/Consumer/SoWhat.jpg);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	background-position:120px 4px;
+	background-attachment:fixed;
+	text-align:left;
+	color:#fff;
+}
+.consumerRow3{
+	background:url(../contents/Images/Consumer/Row3.jpg);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	background-attachment:fixed;
+	text-align:left;
+	color:#fff;
+}
+.whyneedInsurance{
+	background:url(../contents/Images/Consumer/mini/ChildSection.jpg);
+	background-repeat:no-repeat;
+	padding:200px;
+	background-size:cover;
+	text-align:center;
+	z-index:-10000;
+	background-attachment:scroll;
+	color:#fff;
+}
+.whyneedInsuranceCols{
+/* 	padding:40px; */
+}
+.consumerRow2 .colm1{
+	padding:80px;
+	padding-top:90px;
+	padding-bottom:90px;
+	background:#fff;
+	color:#756d64;
+}
+.consumerRow2 .colm2{
+	padding-right:80px;
+	padding-left:40px;
+	padding-top:170px;
+	padding-bottom:40px;
+}
+
+.consumerRow3 .colm1{
+	padding:40px;
+	padding-top:170px;
+	padding-left:80px;
+	padding-bottom:150px;
+}
+.consumerRow3 .colm2{
+	background:#fff;
+	color:#756d64;
+	padding-right:80px;
+	padding-left:40px;
+	padding-top:100px;
+	padding-bottom:100px;
+}
+.insu0,.insu3,.insu5,.insu7{
+	padding:80px !important;
+	padding-top:200px !important;
+	padding-bottom:200px !important;
+}
+.insu1{
+	background:url(../contents/Images/Consumer/mini/image5.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+}
+.insu4{
+	background:url(../contents/Images/Consumer/mini/coinJar.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+}
+.insu6{
+	background:url(../contents/Images/Consumer/mini/image6.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:auto;
+}
+.insu8{
+	background:url(../contents/Images/Consumer/mini/image7.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+}
+.productSuit .col-md-6{
+	padding-top:100px;
+	padding-bottom:100px;
+	text-align:justify;
+}
+/* 
+.ImgSector{
+	background:url(../contents/Images/Consumer/mini/rawpixel-782046-unsplash.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	background-attachment:fixed;
+	padding:300px;
+}
+ */
+.TypeOfperson{
+	background:url(../contents/Images/Consumer/mini/rawpixel-790887-unsplash.jpg);
+	background-repeat:no-repeat;
+	padding:100px 175px 100px 180px;
+	background-attachment:fixed;
+	background-size:cover;
+	background-position:0px 62%;
+	text-align:center;
+	color:#fff;
+}
+.mobilePopupLogin{
+	display:none;
+}
+.SelectInsureConsumerSpecial{
+	background:url(../contents/Images/Consumer/mini/InsuranceSuited.jpg);
+	background-repeat:no-repeat;
+	padding:150px 0px 0px 0px;
+	background-attachment:fixed;
+	background-size:cover;
+	background-position:0px 62%;
+	color:#fff;
+}
+.claimSelection button{
+	margin:1px;
+}
+
+.SelectInsureConsumerSpecial h1{
+	text-align:center;
+	padding: 10px;
+}
+.secondedrow{
+	text-align:justify;
+	margin-top:100px;
+}
+
+.secondedrow .col-md-6{
+	padding:50px;
+}
+.secondedrow1 .col-md-6{
+	padding:50px;
+}
+.consumer6Right {
+    padding-left: 10px !important;
+}
+.nowWhatScroll{
+	background:url(../contents/Images/Consumer/mini/NowWhat.jpg);
+	background-repeat:no-repeat;
+	padding:200px 175px 200px 180px;
+	background-attachment:fixed;
+	background-size:cover;
+	background-position:0px 62%;
+	text-align:center;
+	color:#fff;
+}
+
+.TypeOfperson h1,.SelectInsureConsumerSpecial h1,.whyneedInsurance h1,.nowWhatScroll h1,.ClaimingRow h1,.FAQ h1,.whatsExcess h1,.unfairlyTreated h1{
+	font-size: 50px;
+}
+.panelContent{
+	margin-top:5%;
+	padding:20px;
+}
+.contentTall{
+	padding:80px !important;
+	padding-top:80px !important;
+	text-align:justify;
+}
+.ultagsBar .col-md-6{
+	padding:80px;
+	padding-top:100px;
+	padding-bottom:100px;
+}
+.ultagsBar li{
+	margin-bottom:30px;
+}
+.contentTall2{
+	background:url(../contents/Images/Consumer/mini/pexels-photo-462680.jpeg);
+	background-repeat:no-repeat;
+	background-size:cover;
+    background-position: 40% 50%;
+}
+.contentTall p{
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.Suit_me{
+		background:url(../contents/Images/Consumer/mini/image4.jpg);
+	background-repeat:no-repeat;
+	padding:240px 175px 200px 180px;
+	background-size:cover;
+	background-position:0px 62%;
+	text-align:center;
+	color:#fff;
+}
+.Suit_me h1{
+	font-size: 50px;
+}
+.row.legalClaimsData {
+    margin-left: 0.2%;
+}
+.selectInsureCompany{
+	background:url(../contents/Images/Consumer/mini/chooseInsure.jpg);
+	background-repeat:no-repeat;
+	padding:240px 175px 200px 180px;
+	background-size:cover;
+	background-position:0px 62%;
+	text-align:center;
+	color:#fff;
+}
+.SelectInsureCompanyySplit .col-md-6{
+	padding-top:100px;
+	padding-bottom:100px;
+	text-align:justify;
+}
+.contentSplitSection .col-md-10{
+	padding-top:100px;
+	padding-bottom:100px;
+	color:#fff;
+}
+.consumer6Right{
+	padding-left:80px !important;
+}
+.selectInsureCompany h1{
+	font-size: 50px;
+}
+.ClaimingRow{
+	background:url(../contents/Images/Consumer/mini/chooseInsure.jpg);
+	background-repeat:no-repeat;
+	padding:200px 175px 200px 180px;
+	background-size:cover;
+	background-position:0px 62%;
+	text-align:center;
+	color:#fff;
+}
+.ClaimingRowCols .col-md-6{
+	padding:80px 0px 80px 0px;
+}
+.productSui2{
+/* 	padding-top:80px; */
+	padding-bottom:80px;
+}
+.BusinesslegalCoverWhatyouCovered{
+	padding:40px;
+	text-align:center;
+	color:#756d64;
+}
+.row.space13020.yellowbg.contentSplitSection {
+    padding: 80px;
+}
+.SectionFAQWhite .col-md-6 {
+    padding: 80px 0px 80px 100px !important;
+}
+.spaiclaCOlo{
+	padding:80px !important;
+}
+.col-md-6.spaiclaCOlo {
+    padding: 80px 100px 80px 100px !important;
+}
+.BusinesslegalCoverWhatyouCovered p{
+	font-weight:100;
+}
+.businessWhyhaveLeagal{
+	color:#756d64;
+}
+.aboveFaQ{
+	background:url(../contents/Images/Consumer/mini/SelectInsure.jpg);
+	background-repeat:no-repeat;
+	padding:400px 0px 0px 0px;
+	background-size:cover;
+	background-position:0px 62%;
+}
+.aboveFaQ .col-md-6{
+	background:#fff;
+/* 	padding:80px 100px 80px 100px !important; */
+}
+.FAQ{
+	background:url(../contents/Images/Consumer/mini/FAQ.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	padding:200px 175px 200px 180px;
+	text-align:center;
+	color:#fff;
+	background-size:cover;
+	background-position:0px 62%;
+}
+
+.faqa .col-md-6{
+	padding-top:50px;
+	padding-bottom:50px;
+}
+.ClaimFraud{
+	background:url(../contents/Images/Consumer/mini/FAQLadies.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding:180px 110px 150px 100px !important;
+	color:#fff;
+}
+.ClaimFraudA{
+	padding-top:190px !important;
+	padding-bottom:190px !important;
+}
+.claimIssures{
+	padding-top:80px;
+	padding-bottom:80px;
+}
+.whatsExcess{
+	background:url(../contents/Images/Consumer/mini/whatAccess.jpg);
+	background-repeat:no-repeat;
+	padding:200px 175px 200px 180px;
+	background-size:cover;
+	background-position:0px 62%;
+	text-align:center;
+	color:#fff;	
+}
+.excessData{
+	padding-top:80px;
+	padding-bottom:80px;
+}
+
+.excessData .col-md-6{
+	padding-right:80px;
+}
+.unfairlyTreated{
+	background:url(../contents/Images/Consumer/mini/qualityUnfairTreat.jpg);
+	background-repeat:no-repeat;
+	padding:200px 0px 200px 0px;
+	background-size:cover;
+	background-position:0px 62%;
+	background-attachment: fixed;
+	text-align:center;
+	color:#fff;	
+}
+.consultation{
+	padding: 80px 0px 80px 0px;
+}
+.consultation .specialP{
+	background: #756d64;
+	padding:30px;
+	color:#fff;
+	margin-bottom:50px;
+}
+.whyInsure h1 {
+margin-top: 2em !important;
+}
+/* Claim Submission Codes */
+.claimSubmission{
+	padding:40px;
+}
+.contentCover{
+	background:#f0f0f0;
+	color:#939598;
+	padding:20px 20px 20px 20px !important;
+/* 	width:60%; */
+	margin-top:25px;
+	margin-left:-10%;
+	box-shadow: 1px 1px 2px 1px #dedbdb;
+}
+.businessamount{
+	font-size:16px; 
+	font-weight:400;
+}
+.homeCatchUp{
+	padding:50px;
+	color:#756d64;
+}
+.homeCatchUp h1{
+	font-weight:100;
+	margin-bottom:30px;
+}
+.homeCatchUp p{
+	font-weight:200;
+}
+.popover
+{
+    width: 500px !important;
+    border-radius:0px !important;
+    padding:10px 10px 10px 10px !important
+}
+.btn-orange{
+	background:#febd27 !important;
+	border-color:#febd27 !important;
+	color:#756d64 !important;
+}
+.btn-orange:hover{
+	border-color:#756d64 !important;
+}
+.contactSection h1{
+	margin-bottom:20px;
+}
+.contactSection p{
+	font-weight:100;
+}
+.contactSpecialBold{
+	font-weight:500;
+}
+.contactSection,.onlineOption{
+	padding:60px;
+	color:#756d64 !important; 
+}
+.onlineSelectionsRow .col-md-4{
+	text-align:center;
+	color:#756d64 !important; 
+	padding:60px;
+}
+.mapSections h2{
+	color:#756d64 !important; 
+	padding: 60px 0px 30px 0px !important;
+}
+.mapSections p{
+	color:#756d64 !important; 
+	padding: 0px 0px 70px 0px !important;
+}
+/* 
+.curretControl{
+	padding:10px;
+	background:red;
+	display:inline-block;
+	position:relative;
+	top: -154px !important;
+	right:-50%;
+	-webkit-transform:rotate(45deg);
+   -moz-transform:rotate(45deg);
+   -o-transform:rotate(45deg); 
+
+}
+ */
+.onlineSelectionsRow .col-md-4:hover{
+	background:#efeff0;
+	cursor:pointer;
+}
+.claimSelection p{
+	
+	padding-bottom:20px;
+}
+span.icon-fraud{
+	background: url(../contents/Images/slices.png);
+    background-position: -447px -2px !important;
+    width: 60px;
+    height: 70px;
+    /* padding: 30px; */
+    position: absolute;
+    zoom:1.6 !important;
+    top: 0px;
+    /* background-size: 810px; */
+}
+span.icon-general{
+	    background: url(../contents/Images/slices.png);
+    background-position: -66px -360px !important;
+    width: 60px;
+    height: 70px;
+    /* padding: 30px; */
+    zoom:1.6 !important;
+    position: absolute;
+    top: 0px;
+    /* background-size: 810px; */
+}
+span.icon-contactus{
+	zoom:1.6 !important;
+	background: url(../contents/Images/slices.png);
+    background-position:-383px -145px!important;
+    width: 60px;
+    height: 70px;
+    /* padding: 30px; */
+    position: absolute;
+    top: 0px;
+    /* background-size: 810px; */
+}
+.legalClaimsData a{
+	color:#756d64 !important;
+}
+.claimForm, .legalClaimsData{
+	margin-top:20px;
+}
+select{
+	height:34px !important;
+}
+
+.benefitsCols{
+	padding:142px 60px 142px 60px !important;
+	text-align:center;
+	color:#fff;
+	background-repeat:no-repeat;
+}
+/* This is for personal Business Legal*/
+
+.LegalExpbenefits1{
+	background:url(../contents/Images/Banefits/lawyerOnCall.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+    background-position: 0% 100% !important;
+	
+}
+.LegalExpbenefits2{
+	background:url(../contents/Images/Banefits/expertsAdviceGuidance.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+    background-position: 0% 100% !important;
+}
+.LegalExpbenefits3{
+	background:url(../contents/Images/Banefits/LegalFees.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+    background-position: 0% 100% !important;
+}
+.LegalExpbenefits4{
+	background:url(../contents/Images/Banefits/Customized.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+    background-position: 0% 100% !important;
+}
+.LegalExpbenefits5{
+	background:url(../contents/Images/Banefits/Family.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+    background-position: 0% 100% !important;
+}
+.LegalExpbenefits6{
+	background:url(../contents/Images/Banefits/Financial.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+    background-position: 0% 100% !important;
+}
+
+
+/* This is for Business legal */
+.Legalbenefits1{
+	background:url(../contents/Images/Banefits/MicroSME/Officeequipment.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+    background-position: 0% 100% !important;
+	
+}
+.Legalbenefits2{
+	background:url(../contents/Images/Banefits/MicroSME/Materialsintrade.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+    background-position: 0% 100% !important;
+}
+.Legalbenefits3{
+	background:url(../contents/Images/Banefits/MicroSME/Tools.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+    background-position: 0% 100% !important;
+}
+.Legalbenefits4{
+	background:url(../contents/Images/Banefits/MicroSME/Machinery.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+    background-position: 0% 100% !important;
+}
+.Legalbenefits5{
+	background:url(../contents/Images/Banefits/MicroSME/Glass.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+    background-position: 0% 100% !important;
+}
+.Legalbenefits6{
+	background:url(../contents/Images/Banefits/MicroSME/Electronicequipment.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+    background-position: 0% 100% !important;
+}
+.Legalbenefits7{
+	background:url(../contents/Images/Banefits/MicroSME/Sasria.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+    background-position: 0% 100% !important;
+}
+.Legalbenefits8{
+	background:url(../contents/Images/Banefits/MicroSME/Flatexcess.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+    background-position: 0% 100% !important;
+}
+
+
+
+.buildingBenefits1{
+	background:url(../contents/Images/Banefits/NewStructureDamage.jpg);
+	background-size:cover;
+	
+}
+.buildingBenefits2{
+	background:url(../contents/Images/Banefits/NewLiabilityCover.jpg);
+	background-size:cover;
+}
+.buildingBenefits3{
+	background:url(../contents/Images/Banefits/NewBoundaryWall.jpg);
+	background-size:cover;
+}
+
+.contentsBenefits1{
+	background:url(../contents/Images/Banefits/NewTheft&Damage.jpg);
+	background-size:cover;
+	
+}
+.contentsBenefits2{
+	background:url(../contents/Images/Banefits/NewItemCoverage.jpg);
+	background-size:cover;
+}
+.contentsBenefits3{
+	background:url(../contents/Images/Banefits/NewLargeApplicationCover.jpg);
+	background-size:cover;
+}
+.BenefitsyellowDeviders .side{
+	background:#febd27;
+	padding:2px;
+	width:1px;
+	height:50px;
+	position:absolute;
+	left:-0.5%;
+	bottom:0%;
+}
+.BenefitsyellowDeviders .bottom{
+	background:#febd27;
+	padding:2px;
+	width:50px;
+	height:1px;
+	position:absolute;
+	left:0%;
+	bottom:-0.6%;
+	z-index:1000;
+}
+
+.BenefitsyellowDevidersOpposite .side{
+	background:#febd27;
+	padding:2px;
+	width:1px;
+	height:50px;
+	position:absolute;
+	right:-0.1%;
+	z-index:1000;
+	top:0%;
+}
+.BenefitsyellowDevidersOpposite .bottom{
+	background:#febd27;
+	padding:2px;
+	width:50px;
+	height:1px;
+	position:absolute;
+	right:0%;
+	top:-0.4%;
+}
+.paratext {
+    height: 102px;
+    padding-top:50px !important;
+/*     margin-bottom:10px; */
+}	
+.HomeParatext{
+	 height: 102px;
+	 padding:2px;
+/* 
+     margin-left:70px;
+     margin-right:70px;
+ */
+}
+.paratextBusiness {
+    height: 160px;
+    padding-top:2px !important;
+/*     margin-bottom:10px; */
+}
+.businesscalcu{
+	padding-top:15px;
+	width:71%;
+}
+.parabutton {
+/*     height: 102px; */
+    margin-top:60% !important;
+}
+.HomParabutton{
+	margin-top:0% !important;
+}
+.CoverSummery{
+	padding-bottom:40px;
+}
+.CoverSummery h1,.payments h1{
+	padding-top:40px;
+	padding-bottom:30px;
+}
+
+.table-section td{
+	border-top:none !important;
+	color:#fff !important;
+	margin-top:10px;
+}
+.table-section_price td{
+	border-top:none !important;
+	color:#fff !important;
+	
+}
+.businessCoverSection h1 {
+    margin-top: 3% !important;
+}
+.table-coverFees{
+	margin-top:16%;
+}
+.table-coverFees .priceText{
+	padding-top:6.2%;
+}
+span.glyphicon.glyphicon-remove {
+    font-size: 17px !important
+}
+.payments,.ThankYou{
+	color:#756d64 !important;
+	padding-bottom:40px;
+}
+.payments input.specialTextBox.form-control{
+	margin-top:20px !important;
+}
+.payments label {
+    margin-top: 20px !important;
+}
+#submitPayment{
+/* 	background:#e0e0e0 !important; */
+}
+.paymentBusiness{
+	color:#fff !important;
+}
+.data-bottom {
+    position: absolute;
+    bottom: 0px !important;
+    color: #fff;
+}
+/* The control of the breadcrumb */
+.affix-top {
+    /* Initial items */
+}
+
+.affix {
+    top:0px;
+    left:0px;
+    right:0px;
+    z-index:9000 !important;
+    width:101%;
+    position:fixed;
+}
+
+.summeryTable{
+	color:#fff !important;
+	width:80% !important;
+}
+.summeryTable tr{
+	border-bottom:2px solid #fff;
+}
+td.priceText {
+    padding-left: 20px !important;
+}
+.PersonalCash{
+	background:#d1c9c1 !important;
+	border:none !important;
+	color:#fff !important;
+}
+
+.PersonalCash:hover{
+	background:#756d64 !important;
+	border:none !important;
+}
+
+.summeryTableBusiness{
+	color:#756d64 !important;
+	width:90% !important;
+}
+.summeryTableBusiness tr{
+	border-bottom:2px solid #756d64;
+	color:#756d64 !important;
+}
+.summeryTableBusiness td{
+color:#756d64 !important;
+}
+button.businessSMEBtnConfirm{
+    border: 2px solid #756d64 !important;  
+}
+button.businessSMEBtnConfirm:hover{
+	background: #fff !important;
+}
+
+.iconMenu {
+	display:none !important;
+}
+.navbarMobile{
+	display:none !important;
+}
+
+.closeMenu{
+	background: #febd27;
+    color: #756d64;
+    width: 5.1%;
+    position: absolute;
+    top: 20%;
+    z-index: 5000;
+    text-align: center;
+    right: 1%;
+    color:#fff !important;
+    padding: 6px;
+    cursor:pointer;
+    border-radius: 0% 0% 100% 100%;
+}
+.iconMenu {
+    cursor:pointer;
+    background: #febd27;
+    color: #756d64;
+    width: 2.1%;
+    position: absolute;
+    top: 49.4%;
+    z-index: 300;
+    text-align: center;
+    right: 1%;
+    padding: 6px;
+    border-radius: 0% 0% 100% 100%;
+}
+.testimonialsVideos{
+	position:absolute;
+	width:100%;
+	background:#2f2f2f; 
+	color:#fff;
+}
+.testimonialsVideos .col-md-4{
+	padding:20px;
+}
+.videoPop iframe{
+	height:304px !important;
+}
+.videosSection{
+	padding:50px;
+}
+.closeBtn{
+	position: absolute;
+    top: 0.1px !important;
+    right: -12% !important;
+    background: #febd27 !important;
+    border-color: #ffc634 !important;
+    border-radius: 0px !important;
+    color: #fff !important;
+}
+.searchSection{
+	margin:50px 0px 50px 0px !important;
+}
+.searchResults{
+	padding:20px 0px 20px 0px;
+}	

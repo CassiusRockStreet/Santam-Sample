@@ -1,0 +1,1546 @@
+<!doctype html>
+
+<html>
+<head>
+	<title>Santam Legal</title>
+	<meta charset="UTF-8">
+  	<meta name="description" content="Santam Legal">
+  	<meta name="keywords" content="Santam Legal">
+  	<meta name="author" content="Decimal Agency">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<link rel="icon" type="image/x-icon" href='contents/Images/favicon.ico'>
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+  	<link rel="stylesheet" href="Framework/styles.css">
+  	<link rel="stylesheet" href="Framework/responsive.css">
+  	<link rel="stylesheet" href="Framework/Bootstrap/css/bootstrap.min.css">
+  	<link rel="stylesheet" href="Framework/Bootstrap/css/bootstrap-slider.css">
+  	<link rel="stylesheet" href="Framework/bootstrapCustom.css">	 
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	
+  <script type='text/javascript' src="https://www.eyecon.ro/bootstrap-slider/js/bootstrap-slider.js"></script>
+<!--  slider Sections -->
+<!--   	<link rel="stylesheet" type="text/css" href="https://www.eyecon.ro/bootstrap-slider/css/slider.css"> -->
+<!-- END -->
+</head>
+<body>
+	<div class="headerSection"></div>
+	<div class="sliderSection"></div>
+<div class="row formSection space13020">
+	<div class="col-md-12">
+<!-- 		<form action="" class="customerForm"> -->
+		<div class="customerForm Claimloginform">
+			<div class="row">	
+				<div class="col-md-12">
+					<p class="font-16">Please complete the form below to continue</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<label>Username</label>
+					<input type="text" name="username" class="form-control" id="username">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<label>Password</label>
+					<input type="password" name="username" class="form-control" id="password">
+				</div>
+			</div>
+			<br>
+			<div class="row">
+				<div class="col-md-4">
+					<input type="submit" name="username" class="btn btn-warning btn-orange" id="submit" value="Sign in">
+					<label>Forgot password? <a href="#">Click here</a></label>
+				</div>
+			</div>
+<!-- 		</form> -->
+		</div>
+		<div class="row claimSelection" style="margin-left:0px !important">
+			<div class="row">
+				<div class="col-md-12">
+					<p class="font-20">Would you like to submit a claim for:</p>
+					<button class="btn btn-orange" id="buildingClaim">Building and/or contents</button>
+					<button class="btn btn-orange" id="personalClaim">Personal accident</button>
+					<button class="btn btn-orange" id="legalinsurance">Legal insurance</button>
+					<button class="btn btn-orange" id="Businesslegal">Business legal</button>
+					<button class="btn btn-orange" id="MicroSme">Micro SME</button>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-12 claimForm">
+		<div class="row">	
+			<div class="col-md-12">
+				<h1>CLAIM FORM</h1>
+				<p class="font-16">Building and/or contents</p>
+				<p class="font-16">Please complete the fields using our secure form below</p>
+			</div>
+		</div>
+		<form method="POST" class="customerForm">
+		
+			<div class="row">
+				<div class="col-md-3">
+					<label>Policy number</label>
+					<input type="text" name="username" class="form-control" id="policy" readonly>
+				</div>
+			</div>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>Initials</label>
+							<input type="text" class="form-control" required>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>Surname</label>
+							<input type="text" class="form-control" required>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>ID No/Passport No</label>
+							<input type="text" class="form-control" required>
+						</div>
+					</div>
+					<div class="col-md-6">
+					<p>Click here to upload your ID/Passport</p>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="form-group">
+									<input type="file" class="form-control file-upload" required>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<div class="row">
+					<div class="col-md-8">
+						<div class="form-group">
+							<label>Address (H)</label>
+							<input type="text" class="form-control">
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="form-group">
+							<label>Post code (H)</label>
+							<input type="text" class="form-control">
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-8">
+						<div class="form-group">
+							<label>Address (W)</label>
+							<input type="text" class="form-control">
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="form-group">
+							<label>Postal code (W)</label>
+							<input type="text" class="form-control">
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>Cell phone number</label>
+							<input type="text" class="form-control" required>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>Email address</label>
+							<input type="text" class="form-control">
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>Telephone(H)</label>
+							<input type="text" class="form-control">
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>Occupation</label>
+							<input type="text" class="form-control">
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="form-group">
+							<label>Address</label>
+							<input type="text" class="form-control">
+							<p><small>Address at which loss or damage occur</small></p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="form-group">
+							<label>Postal code</label>
+							<input type="text" class="form-control">
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="form-group">
+							<label>Country</label>
+							<input type="text" class="form-control">
+							<p><small>Where the event occured</small></p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>Date</label>
+							<input type="date" class="form-control">
+							<p><small>When did the loss or damage occur</small></p>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>Approximate time of event</label>
+							<input type="time." class="form-control">
+							<p><small>When did the loss or damage occur</small></p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="form-group">
+							<label>Description</label>
+							<textarea class="form-control"></textarea>
+							<p><small>Describe fully the details or the event</small></p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="form-group"><br><br>
+							<label>Have you previously suffered a loss?</label>
+							<input type="radio" name="radio1" value="1"> Yes
+							<input type="radio" name="radio1" value="2" > No
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>If yes, please provide a full description of the previous claims/losses</label>
+							<textarea  class="form-control"></textarea>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<!-- 
+<div class="col-md-6">
+						<div class="form-group"><br><br>
+							<select name="radio1"  class="form-control" required>
+								<option>None</option>
+								<option>Death</option>
+								<option>Permanent disablement</option>
+								<option>Permanent total disablement</option>
+							</select> 
+						</div>
+					</div>
+ -->
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>If the loss or damage is specific to your Geyser please describe fully what is the result of the damage</label>
+							<textarea  class="form-control"></textarea>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>If the nature of your claim specific to a riot or strike, describe fully the result of the damage</label>
+							<textarea  class="form-control"></textarea>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>Were the premises occupied at the time of the loss or damage?</label>
+							<input type="radio" name="radio2" value="1"> Yes
+							<input type="radio" name="radio2" value="2" > No
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>If No, when was it last occupied?</label>
+							<textarea  class="form-control"></textarea>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-12">
+						<div class="form-group">
+							<label>How were the premises occupied at the time of the loss or damage?</label>
+							<textarea class="form-control"></textarea>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-3">
+						<div class="form-group">
+							<label>Was the loss or damage reported to the police?</label>
+							<input type="radio" name="radio3" value="1"> Yes
+							<input type="radio" name="radio3" value="2" > No
+						</div>
+					</div>
+					<div class="col-md-9">
+						<div class="row">
+							<div class="col-md-4">
+								<div class="form-group">
+									<label class="label-ifnot">If not, why not?</label>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="form-group">
+									<label>If so, when and where?</label>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="form-group">
+									<label>S.A. Police reference no.</label>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-4">
+								<div class="form-group">
+									<textarea  class="form-control"></textarea>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="form-group">
+									<textarea  class="form-control"></textarea>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="form-group">
+									<textarea  class="form-control"></textarea>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-8">
+						<div class="form-group">
+							<label>Are you the sole owner of the property you claiming for?</label>
+							<br>
+							<input type="radio" value="1" name="radio4"/> Yes
+							<input type="radio" value="2" name="radio4"/> No
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-8">
+						<div class="form-group">
+							<label>Is there a bond on the property?</label>
+							<br>
+							<input type="radio" value="1" name="radio5"/> Yes
+							<input type="radio" value="2" name="radio5"/> No
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>What is your estimate of the value of the entire contents at the time of the loss or damage?</label>
+							<br>
+							<input type="text" placeholder="R10 000.00" class="form-control"/>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>What is your estimate of the value of the building(s) at the time of the loss or damage?</label>
+							<br>
+							<input type="text" placeholder="R10 000.00" class="form-control"/>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-8">
+						<div class="form-group">
+							<label>Does/Do the building/s have a thatch roof?</label>
+							<br>
+							<input type="radio" value="1" name="radio6"/> Yes
+							<input type="radio" value="2" name="radio6"/> No
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>Is the loss or damaged property insured under any other policy?</label>
+							<input type="radio" name="radio7" value="1"> Yes
+							<input type="radio" name="radio7" value="2" > No
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>If so, give full particulars</label>
+							<textarea  class="form-control"></textarea>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+					<p>Click here to Upload images of your buildings and contents</p>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="form-group">
+									<input type="file" class="form-control file-upload" multiple>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--col-8end--><br><br><br><br>
+			<div class="col-md-4" style="padding-left:50px;">
+				<div class="form-terms">
+<!-- 				<h3>PLEASE NOTE</h3> -->
+				<p class="font-16">
+					I/We warrant the truth of the answers to the above questions and I/we declare that no information has been withheld and that the amount claimed represents my/our loss arising from the above stated occurrence.
+				</p>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="form-group">
+							<input type="checkbox" name="termscCheck"> <label> I agree to the <span data-toggle="modal" data-target="#myModal" id="PolicyTerms" class="yellowText">terms and conditions</span></label>
+							<br>
+							<input type="submit" value="Submit" class="btn bnt-primary plainBtn darkborder btn-lg pull-right"/>
+						</div>
+					</div>
+				</div>
+				</div>
+				
+		</div>
+		</div>	
+		</form>		
+	</div>
+		<div class="col-md-12 PAclaimForm">
+		<div class="row">	
+			<div class="col-md-12">
+				<h1>CLAIM FORM</h1>
+				<p class="font-16">Personal accident</p>
+				<p class="font-16">Please complete the fields using our secure form below</p>
+			</div>
+		</div>
+		
+		<form method="POST" class="customerForm">
+		<div class="row">
+				<div class="col-md-3">
+					<label>Policy number</label>
+					<input type="text" name="username" class="form-control" id="policy" readonly>
+				</div>
+			</div>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>Initials</label>
+							<input type="text" class="form-control" required>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>Surname</label>
+							<input type="text" class="form-control" required>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>ID No/Passport No</label>
+							<input type="text" class="form-control" required>
+						</div>
+					</div>
+					<div class="col-md-6">
+					<p>Click here to upload your ID/Passport</p>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="form-group">
+									<input type="file" class="form-control file-upload" required>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<div class="row">
+					<div class="col-md-8">
+						<div class="form-group">
+							<label>Address (H)</label>
+							<input type="text" class="form-control">
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="form-group">
+							<label>Post code (H)</label>
+							<input type="text" class="form-control">
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-8">
+						<div class="form-group">
+							<label>Address (W)</label>
+							<input type="text" class="form-control">
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="form-group">
+							<label>Postal code (W)</label>
+							<input type="text" class="form-control">
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>Cell phone number</label>
+							<input type="text" class="form-control" required>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>Email address</label>
+							<input type="text" class="form-control">
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>Telephone(H)</label>
+							<input type="text" class="form-control">
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>Occupation</label>
+							<input type="text" class="form-control">
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>Address</label>
+							<input type="text" class="form-control">
+							<p><small>Address at which loss or damage occur</small></p>
+						</div>
+					</div>
+					<div class="col-md-2">
+						<div class="form-group">
+							<label>Postal code</label>
+							<input type="text" class="form-control">
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="form-group">
+							<label>Country</label>
+							<input type="text" class="form-control">
+							<p><small>Where the event occured</small></p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>Date of birth</label>
+							<input type="date" class="form-control">
+<!-- 							<p><small>When did the loss or damage occur</small></p> -->
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>Age at time of accident</label>
+							<input type="text" class="form-control">
+<!-- 							<p><small>When did the loss or damage occur</small></p> -->
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="form-group">
+							<label>Daytime Tel No.</label>
+							<input type="text"  class="form-control">
+<!-- 							<p><small>Describe fully the details or the event</small></p> -->
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="form-group">
+							<label>Mobile Tel No.</label>
+							<input type="text" class="form-control"> 
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="form-group">
+							<label>Email</label>
+							<input type="email"  class="form-control">
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-4">
+						<div class="form-group">
+							<label>Name of employee/Company</label>
+							<input type="text" class="form-control">
+							<small>(If over 16 years of age):</small>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>Address of employee <small>(if self employed, please state business address):</small></label>
+							<input type="text" class="form-control">
+						</div>
+					</div>
+					<div class="col-md-2">
+						<div class="form-group">
+							<label>Post code</label>
+							<input type="text" class="form-control">
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>Employer's Business</label>
+							<input type="text" class="form-control" name="">
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>Occupation/Title</label>
+							<input type="text" class="form-control">
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>Description of duties</label>
+							<textarea class="form-control"></textarea>
+						</div>
+					</div>
+					
+					<div class="col-md-3">
+						<div class="form-group">
+							<label>Name of policy holder</label>
+							<input type="text" class="form-control">
+							<small>(Include title)</small>
+						</div>
+					</div>
+					
+					<div class="col-md-3">
+						<div class="form-group">
+							<label>Relationship of claimant</label>
+							<input type="text" class="form-control">
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-12">
+						<hr style="border: 1px solid #e6e6e6;">
+						<div class="form-group">
+							<p><b>Please complete ALL questions. Your claim cannot be processed without this information.</b></p>
+						</div>
+						<hr style="border: 1px solid #e6e6e6;">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="form-group">
+							<label>Please specify exact date of incident<br><br></label>
+							<input type="date" class="form-control"/> 
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="form-group">
+							<label>Please specify exact time of incident<br><br></label>
+							<input type="time" class="form-control"/> 
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="form-group">
+							<label>On what date did you stop performing all your occupational duties</label>
+							<input type="date" class="form-control"/> 
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>How long have you been totally disabled and unable to perform any part of your occupation?</label>
+							<br>
+							<textarea type="text" class="form-control"></textarea>
+							<small>If NO please confirm</small>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="form-group">
+							<label>Have you engage in any work since disability began? </label>
+							<br>
+							<input type="radio" value="1" name="disabled"/> Yes<br>
+							<input type="radio" value="2" name="disabled"/> No
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>Are you medically signed off from work?</label><br>
+							<input type="radio" name="medicalSignedOff" value="1"> Yes<br>
+							<input type="radio" name="medicalSignedOff" value="2" > No<br>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>If Yes, please attach a copy of latest medical certificate.</label>
+							<input type="file file-upload"  class="form-control">
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>Nature of your work</label>
+							<input type="text"  class="form-control">
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>Date work commenced</label>
+							<input type="date"  class="form-control">
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>Is this full time or part time?</label>
+							<input type="text"  class="form-control">
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>State date you expect to return to work</label>
+							<input type="date"  class="form-control">
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>Describe exactly where and how the accident occurred</label>
+							<textarea rows="5"  class="form-control"></textarea>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>Describe injuries sustained</label>
+							<textarea rows="5"  class="form-control"></textarea>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>For what period were you confined to hospital:</label>
+							<div class="row">
+								<div class="col-md-6">
+									<label>From:</label>
+									<input type="date" class="form-control">
+								</div>
+								<div class="col-md-6">
+									<label>To:</label>
+									<input type="date" class="form-control">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>For what period were you confined to the home:</label>
+							<div class="row">
+								<div class="col-md-6">
+									<label>From:</label>
+									<input type="date" class="form-control">
+								</div>
+								<div class="col-md-6">
+									<label>To:</label>
+									<input type="date" class="form-control">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>If the injury was a result of an assault or a road traffic accident, was this reported?</label><br>
+							<input type="radio" name="InjuryType" value="1"> Yes<br>
+							<input type="radio" name="InjuryType" value="2" > No
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="row">
+							<div class="col-md-8">
+								<div class="form-group">
+									<label>If Yes, address of police station</label>
+									<input type="text"  class="form-control">
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="form-group">
+									<label>Post code<br></label>
+									<input type="text"  class="form-control">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="form-group">
+									<label>Incident report number</label>
+									<input type="text"  class="form-control">
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label>Name of police office if relevant:</label>
+									<input type="text"  class="form-control">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<hr style="border: 1px solid #e6e6e6;">
+						<div class="form-group">
+							<p><b>Please give details of any Doctor who you have consulted for your injury including the name of your GP:</b></p>
+						</div>
+						<hr style="border: 1px solid #e6e6e6;">
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>Name of your GP.</label>
+							<input type="text"  class="form-control">
+						</div>
+					</div>
+					<div class="col-md-6">
+					<div class="row">
+						<div class="col-md-5">
+							<div class="form-group">
+								<label>Address</label>
+								<input type="text"  class="form-control">
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="form-group">
+								<label>Post code</label>
+								<input type="text"  class="form-control">
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="form-group">
+								<label>Telephone No.</label>
+								<input type="text"  class="form-control">
+							</div>
+						</div>
+					</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>Name</label>
+							<input type="text"  class="form-control">
+						</div>
+					</div>
+					<div class="col-md-6">
+					<div class="row">
+						<div class="col-md-5">
+							<div class="form-group">
+								<label>Address</label>
+								<input type="text"  class="form-control">
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="form-group">
+								<label>Post code</label>
+								<input type="text"  class="form-control">
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="form-group">
+								<label>Telephone No.</label>
+								<input type="text"  class="form-control">
+							</div>
+						</div>
+					</div>
+				</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>Name</label>
+							<input type="text"  class="form-control">
+						</div>
+					</div>
+					<div class="col-md-6">
+					<div class="row">
+						<div class="col-md-5">
+							<div class="form-group">
+								<label>Address</label>
+								<input type="text"  class="form-control">
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="form-group">
+								<label>Post code</label>
+								<input type="text"  class="form-control">
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="form-group">
+								<label>Telephone No.</label>
+								<input type="text"  class="form-control">
+							</div>
+						</div>
+					</div>
+					</div>
+				</div>
+			</div>
+			<!--col-8end--><br><br><br><br>
+			<div class="col-md-4" style="padding-left:50px;">
+				<div class="form-terms">
+<!-- 				<h3>PLEASE NOTE</h3> -->
+				<p class="font-16">
+					I/We warrant the truth of the answers to the above questions and I/we declare that no information has been withheld and that the amount claimed represents my/our loss arising from the above stated occurrence.
+				</p>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="form-group">
+							<input type="checkbox" name="termscCheck"> <label> I agree to the <span data-toggle="modal" data-target="#myModal" id="PolicyTerms" class="yellowText">terms and conditions</span></label>
+							<br>
+							<input type="submit" value="Submit" class="btn bnt-primary plainBtn darkborder btn-lg pull-right"/>
+						</div>
+					</div>
+				</div>
+				</div>
+				
+		</div>
+		</div>	
+		</form>		
+	</div>
+		<div class="row legalClaimsData">
+			<div class="col-md-12">
+				<p class="font-20 labeling">Please call Legal Assistance:</p>
+				<h1><a href="tel:0861 335 333" style="text-decoration:none;">0861 335 333</a><h1>
+			</div>
+		</div>
+		<div class="col-md-12 MicroSMEForm">
+		<div class="row">	
+			<div class="col-md-12">
+				<h1>CLAIM FORM</h1>
+				<p class="font-16">Micro SME</p>
+				<p class="font-16">Please complete the fields using our secure form below</p>
+			</div>
+		</div>
+		<form method="POST" class="customerForm">
+		<div class="row">
+				<div class="col-md-3">
+					<label>Policy number</label>
+					<input type="text" name="username" class="form-control" id="policy" readonly>
+				</div>
+			</div>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>Initials</label>
+							<input type="text" class="form-control" required>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>Surname</label>
+							<input type="text" class="form-control" required>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>ID No/Passport No</label>
+							<input type="text" class="form-control" required>
+						</div>
+					</div>
+					<div class="col-md-6">
+					<p>Click here to upload your ID/Passport</p>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="form-group">
+									<input type="file" class="form-control file-upload" required>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<div class="row">
+					<div class="col-md-8">
+						<div class="form-group">
+							<label>Address (H)</label>
+							<input type="text" class="form-control">
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="form-group">
+							<label>Post code (H)</label>
+							<input type="text" class="form-control">
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-8">
+						<div class="form-group">
+							<label>Address (W)</label>
+							<input type="text" class="form-control">
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="form-group">
+							<label>Postal code (W)</label>
+							<input type="text" class="form-control">
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>Cell phone number</label>
+							<input type="text" class="form-control" required>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>Email address</label>
+							<input type="text" class="form-control">
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>Telephone(H)</label>
+							<input type="text" class="form-control">
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>Occupation</label>
+							<input type="text" class="form-control">
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="form-group">
+							<label>Address</label>
+							<input type="text" class="form-control">
+							<p><small>Address at which loss or damage occur</small></p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="form-group">
+							<label>Postal code</label>
+							<input type="text" class="form-control">
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="form-group">
+							<label>Country</label>
+							<input type="text" class="form-control">
+							<p><small>Where the event occured</small></p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>Date</label>
+							<input type="date" class="form-control">
+							<p><small>When did the loss or damage occur</small></p>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>Approximate time of event</label>
+							<input type="time." class="form-control">
+							<p><small>When did the loss or damage occur</small></p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="form-group">
+							<label>Description</label>
+							<textarea class="form-control"></textarea>
+							<p><small>Describe fully the details or the event</small></p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="form-group"><br><br>
+							<label>Have you previously suffered a loss?</label>
+							<input type="radio" name="radio1" value="1"> Yes
+							<input type="radio" name="radio1" value="2" > No
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>If yes, please provide a full description of the previous claims/losses</label>
+							<textarea  class="form-control"></textarea>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<!-- 
+<div class="col-md-6">
+						<div class="form-group"><br><br>
+							<select name="radio1"  class="form-control" required>
+								<option>None</option>
+								<option>Death</option>
+								<option>Permanent disablement</option>
+								<option>Permanent total disablement</option>
+							</select> 
+						</div>
+					</div>
+ -->
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>If the loss or damage is specific to your Geyser please describe fully what is the result of the damage</label>
+							<textarea  class="form-control"></textarea>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>If the nature of your claim specific to a riot or Strike, describe fully the result of the damage</label>
+							<textarea  class="form-control"></textarea>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>Were the premises occupied at the time of the loss or damage?</label>
+							<input type="radio" name="radio2" value="1"> Yes
+							<input type="radio" name="radio2" value="2" > No
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>If No, when was it last occupied?</label>
+							<textarea  class="form-control"></textarea>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-12">
+						<div class="form-group">
+							<label>How were the premises occupied at the time of the loss or damage?</label>
+							<textarea class="form-control"></textarea>
+						</div>
+					</div>
+				</div>
+				
+				
+				<div class="row">
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>Type of your business</label>
+							<select class="form-control">
+								<option>---</option>
+								<option>Retail</option>
+								<option>Administrator</option>
+								<option>Manufacturing</option>
+							</select>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>Nature of claim</label>
+							<select class="form-control" id="ClaimNatureIs">
+								<option>---</option>
+								<option>Money</option>
+								<option>Burglary</option>
+								<option>Goods in transit</option>
+								<option>Malicious damage</option>
+								<option>Riots</option>
+								<option>Natural disaster</option>
+								<option>Public liability</option>
+								<option>Product liability</option>
+								<option>Accidental loss of keys</option>
+								<option>Other</option>
+							</select>
+						</div>
+					</div>
+				</div>
+				
+				<div class="sectionA">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="form-group">
+								<label>Select the amount of money in Rands</label>
+								<select class="form-control">
+								<option>R0 - R1000</option>
+								<option>R1000 - R2000</option>
+								<option>R2000 - R3000</option>
+								<option>R3000 - R4000</option>
+								<option>R4000 - R5000</option>
+								</select>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="sectionB">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="form-group">
+								<label>Describe what happened to the goods</label>
+								<textarea name="" class="form-control"></textarea>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<label>Estimated value of goods</label>
+								<input type="text" name="" class="form-control">
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="sectionC">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="form-group">
+								<label>Describe the event <small>include dates and time where possible</small></label>
+								<textarea name="" class="form-control"></textarea>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="form-group">
+								<label>Estimated value of the goods</label>
+								<input type="text" name="" class="form-control">
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<label>Is there any additional comments?</label>
+								<input type="text" name="" class="form-control">
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+				<div class="row">
+					<div class="col-md-3">
+						<div class="form-group">
+							<label>Was the loss or damage reported to the police?</label>
+							<input type="radio" name="radio3" value="1"> Yes
+							<input type="radio" name="radio3" value="2" > No
+						</div>
+					</div>
+					<div class="col-md-9">
+						<div class="row">
+							<div class="col-md-4">
+								<div class="form-group">
+									<label class="label-ifnot">If not, why not?</label>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="form-group">
+									<label>If so, when and where?</label>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="form-group">
+									<label>S.A. Police reference no.</label>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-4">
+								<div class="form-group">
+									<textarea  class="form-control"></textarea>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="form-group">
+									<textarea  class="form-control"></textarea>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="form-group">
+									<textarea  class="form-control"></textarea>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>Are you the sole owner of the property you claiming for?</label>
+							<br>
+							<input type="radio" value="1" name="radio4"/> Yes
+							<input type="radio" value="2" name="radio4"/> No
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>Is there a bond on the property?</label>
+							<br>
+							<input type="radio" value="1" name="radio5"/> Yes
+							<input type="radio" value="2" name="radio5"/> No
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>What is your estimate of the value of the entire contents at the time of the loss or damage?</label>
+							<br>
+							<input type="text" placeholder="R10 000.00" class="form-control"/>
+						</div>
+					</div>
+					<div class="col-md-6">
+					<br><br>
+						<div class="form-group">
+							<label>Does/Do the building/s have a thatch roof?</label>
+							<br>
+							<input type="radio" value="1" name="radio6"/> Yes
+							<input type="radio" value="2" name="radio6"/> No
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>Is the loss or damaged property insured under any other policy?</label>
+							<input type="radio" name="radio7" value="1"> Yes
+							<input type="radio" name="radio7" value="2" > No
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>If so, give full particulars</label>
+							<textarea  class="form-control"></textarea>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+					<p>Click here to Upload images of your buildings and contents</p>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="form-group">
+									<input type="file" class="form-control file-upload" multiple>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--col-8end--><br><br><br><br>
+			<div class="col-md-4" style="padding-left:50px;">
+				<div class="form-terms">
+<!-- 				<h3>PLEASE NOTE</h3> -->
+				<p class="font-16">
+					I/We warrant the truth of the answers to the above questions and I/we declare that no information has been withheld and that the amount claimed represents my/our loss arising from the above stated occurrence.
+				</p>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="form-group">
+							<input type="checkbox" name="termscCheck"> <label> I agree to the <span data-toggle="modal" data-target="#myModal" id="PolicyTerms" class="yellowText">terms and conditions</span></label>
+							<br>
+							<input type="submit" value="Submit" class="btn bnt-primary plainBtn darkborder btn-lg pull-right"/>
+						</div>
+					</div>
+				</div>
+				</div>
+				
+		</div>
+		</div>	
+		</form>		
+	</div>
+		
+	</div>
+</div>
+
+
+	<div class="chooseCoverSection"></div>
+	<div class="theBenefitsTestimonialSection"></div>
+	<div class="BlogSection"></div>
+	<div class="FooterSection"></div>
+</body>
+
+<!-- Modal -->
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Terms and conditions</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- End Modal -->
+<!-- <footer class="footer"></footer> -->
+<script>
+	$(document).ready(function(){
+		$('.claimForm').hide();
+		$('.claimSelection').hide();
+		$('.legalClaimsData').hide();
+		$('.PAclaimForm').hide();
+		$('.MicroSMEForm').hide();
+		
+		$('.sectionA').hide();
+		$('.sectionB').hide();
+		$('.sectionC').hide();
+		
+// 			$('.file-upload').hide();
+			$(".headerSection" ).load( "contents/pages/header.html");
+// 			$(".sliderSection" ).load( "contents/pages/slideShow.html");
+// 			$(".chooseCoverSection" ).load( "contents/pages/coverSelection.html");
+// 			$(".theBenefitsTestimonialSection" ).load( "contents/pages/benefitsTestimonials.html");
+// 			$(".BlogSection" ).load( "contents/pages/blog.html");
+			$(".FooterSection" ).load( "contents/pages/footer.html");
+			
+			$('#submit').click(function(){
+				if($('#username').val()==""){
+					alert("Please provide Username");
+				}else if($('#password').val()==""){
+					alert("Please provide password");
+				}else{
+					$('.claimSelection').show('1000');
+					$('.Claimloginform').hide('1000');	
+				}
+			});	
+			
+			$('#ClaimNatureIs').change(function(){
+				switch($('#ClaimNatureIs').val()){
+					case "Money":
+						$('.sectionB').hide('1000');
+						$('.sectionC').hide('1000');
+						$('.sectionA').show('1000');			
+					break;
+					case "Goods in transit":
+						$('.sectionC').hide('1000');
+						$('.sectionA').hide('1000');
+						$('.sectionB').show('1000');									
+					break;
+					
+					default:
+						$('.sectionA').hide('1000');
+						$('.sectionB').hide('1000');
+						$('.sectionC').show('1000');			
+					break;
+				}
+			});
+			/*
+			<button class="btn btn-orange" id="buildingClaim">Building and/or contents</button>
+					<button class="btn btn-orange" id="personalClaim">Personal accident</button>
+					<button class="btn btn-orange" id="legalinsurance">Legal insurance</button>
+					<button class="btn btn-orange" id="Geyserinsurance">Geyser</button>
+			*/
+			$('#buildingClaim').click(function(){
+				$('.legalClaimsData').hide('slideDown');
+				$('.claimForm').show('slideDown');
+				$('.PAclaimForm').hide('1000');
+				$('.MicroSMEForm').hide('1000');
+// 		
+			});
+			$('#personalClaim').click(function(){
+				$('.legalClaimsData').hide('slideDown');
+				$('.claimForm').hide('slideDown');
+				$('.PAclaimForm').show('slideDown');
+				$('.MicroSMEForm').hide('1000');
+			});
+			$('#legalinsurance').click(function(){
+				$('.claimForm').hide('slideDown');
+				$('.PAclaimForm').hide('1000');
+				$('.legalClaimsData').show('slideDown');
+				$('.MicroSMEForm').hide('1000');
+			});
+			$('#Businesslegal').click(function(){
+// 				$('.labeling').html("");
+				$('.legalClaimsData').hide('slow');
+				$('.PAclaimForm').hide('1000');
+				$('.claimForm').hide('slideDown');
+				$('.legalClaimsData').show('slideDown');
+				$('.MicroSMEForm').hide('1000');
+			});
+			$('#MicroSme').click(function(){
+				$('.legalClaimsData').hide('slideDown');
+				$('.PAclaimForm').hide('1000');
+				$('.claimForm').hide('slideDown');				
+				$('.MicroSMEForm').show('slideDown');	
+			});
+	});
+</script>
+
