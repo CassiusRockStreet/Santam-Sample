@@ -9,15 +9,15 @@ Follow demo link here (https://decimaltest.co.za/Santam/) OR (http://rockstreet.
 ### Special features
 ---
 
-1. The site is created with HTML5, CSS3, Bootstrap Framework, Jquery v3.3.1
-2. The site is fully responsive throughout the platforms and interaction is perfect
-3. The site consist of few validations to give lead to the backend creators
-4. The site carries with it the documented comment code as to which section does what
+1. The site is created with HTML5, CSS3, Bootstrap Framework, Jquery v3.3.1.
+2. The site is fully responsive throughout the platforms and interaction is perfect.
+3. The site consist of few validations to give lead to the backend creators.
+4. The site carries with it the documented comment code as to which section does what.
 
 
 
 ## Copyright reserved
-![Decimal Agency](https://decimalagency.com/wp-content/uploads/2018/10/decimal-logo-01.png"Decimal Agency") {width=50%}
+![Decimal Agency](https://decimalagency.com/wp-content/uploads/2018/10/decimal-logo-01.png "Decimal Agency") {width=50%}
 
 * Decimal Agency 2019 (https://decimalagency.com/)
 
