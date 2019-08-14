@@ -3,7 +3,7 @@ This is the site I created while working at Decimal Agency for Santam legal (htt
 
 My lead on this site was to create a front end design as the other company was to create the backend functionality, I have covered the demo of everythign that the site has to do and also added more on the Sample of the site and what it has to do such as adding fincances up to the final section
 
-Follow demo link here (https://decimaltest.co.za/Santam/) OR (http://rockstreet.co.za/santam/)
+Follow demo link here (https://decimaltest.co.za/Santam/) OR (https://rockstreet.co.za/santam/)
 
 --- 
 ### Special features
@@ -26,7 +26,7 @@ Follow demo link here (https://decimaltest.co.za/Santam/) OR (http://rockstreet.
 ![Screenshots](https://rockstreet.co.za/santam/Screenshot_2019-08-14_at_11.18.23.png "Screenshots")
 
 ### Copyright reserved
-![Decimal Agency](https://decimalagency.com/wp-content/uploads/2018/10/decimal-logo-01.png "Decimal Agency")
+![Decimal Agency](https://rockstreet.co.za/santam/decimal-logo.png "Decimal Agency")
 
 * Decimal Agency 2019 (https://decimalagency.com/)
 
