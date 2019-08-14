@@ -15,13 +15,17 @@ Follow demo link here (https://decimaltest.co.za/Santam/) OR (http://rockstreet.
 4. The site carries with it the documented comment code as to which section does what.
 
 --- 
-### Screen Shots
+### Screenshots
 ---
-![](https://rockstreet.co.za/santam/Screenshot 2019-08-14 at 11.17.06.png "Screenshots")
-![](https://rockstreet.co.za/santam/Screenshot 2019-08-14 at 11.18.23.png "Screenshots")
-![](https://rockstreet.co.za/santam/Screenshot 2019-08-14 at 11.17.32.png "Screenshots")
-![](https://rockstreet.co.za/santam/Screenshot 2019-08-14 at 11.16.53.png "Screenshots")
-![](https://rockstreet.co.za/santam/Screenshot 2019-08-14 at 11.17.53.png "Screenshots")
+![Screenshots](https://rockstreet.co.za/santam/Screenshot 2019-08-14 at 11.17.06.png "Screenshots")
+
+![Screenshots](https://rockstreet.co.za/santam/Screenshot 2019-08-14 at 11.18.23.png "Screenshots")
+
+![Screenshots](https://rockstreet.co.za/santam/Screenshot 2019-08-14 at 11.17.32.png "Screenshots")
+
+![Screenshots](https://rockstreet.co.za/santam/Screenshot 2019-08-14 at 11.16.53.png "Screenshots")
+
+![Screenshots](https://rockstreet.co.za/santam/Screenshot 2019-08-14 at 11.17.53.png "Screenshots")
 
 
 ### Copyright reserved
