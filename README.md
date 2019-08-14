@@ -17,7 +17,7 @@ Follow demo link here (https://decimaltest.co.za/Santam/) OR (http://rockstreet.
 
 
 ## Copyright reserved
-![Decimal Agency](https://decimalagency.com/wp-content/uploads/2018/10/decimal-logo-01.png "Decimal Agency") {width=50%}
+![Decimal Agency](https://decimalagency.com/wp-content/uploads/2018/10/decimal-logo-01.png "Decimal Agency"){width=50%}
 
 * Decimal Agency 2019 (https://decimalagency.com/)
 
