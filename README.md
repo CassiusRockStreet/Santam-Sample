@@ -19,14 +19,11 @@ Follow demo link here (https://decimaltest.co.za/Santam/) OR (http://rockstreet.
 ---
 ![Screenshots](https://rockstreet.co.za/santam/Screenshot_2019-08-14_at_11.17.06.png "Screenshots")
 
-![Screenshots](https://rockstreet.co.za/santam/Screenshot_2019-08-14_at_11.18.23.png "Screenshots")
-
 ![Screenshots](https://rockstreet.co.za/santam/Screenshot_2019-08-14_at_11.17.32.png "Screenshots")
-
-![Screenshots](https://rockstreet.co.za/santam/Screenshot_2019-08-14_at_11.16.53.png "Screenshots")
 
 ![Screenshots](https://rockstreet.co.za/santam/Screenshot_2019-08-14_at_11.17.53.png "Screenshots")
 
+![Screenshots](https://rockstreet.co.za/santam/Screenshot_2019-08-14_at_11.18.23.png "Screenshots")
 
 ### Copyright reserved
 ![Decimal Agency](https://decimalagency.com/wp-content/uploads/2018/10/decimal-logo-01.png "Decimal Agency")
