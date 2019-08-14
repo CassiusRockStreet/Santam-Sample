@@ -17,15 +17,15 @@ Follow demo link here (https://decimaltest.co.za/Santam/) OR (http://rockstreet.
 --- 
 ### Screenshots
 ---
-![Screenshots](https://rockstreet.co.za/santam/Screenshot 2019-08-14 at 11.17.06.png "Screenshots")
+![Screenshots](https://rockstreet.co.za/santam/Screenshot_2019-08-14_at_11.17.06.png "Screenshots")
 
-![Screenshots](https://rockstreet.co.za/santam/Screenshot 2019-08-14 at 11.18.23.png "Screenshots")
+![Screenshots](https://rockstreet.co.za/santam/Screenshot_2019-08-14_at_11.18.23.png "Screenshots")
 
-![Screenshots](https://rockstreet.co.za/santam/Screenshot 2019-08-14 at 11.17.32.png "Screenshots")
+![Screenshots](https://rockstreet.co.za/santam/Screenshot_2019-08-14_at_11.17.32.png "Screenshots")
 
-![Screenshots](https://rockstreet.co.za/santam/Screenshot 2019-08-14 at 11.16.53.png "Screenshots")
+![Screenshots](https://rockstreet.co.za/santam/Screenshot_2019-08-14_at_11.16.53.png "Screenshots")
 
-![Screenshots](https://rockstreet.co.za/santam/Screenshot 2019-08-14 at 11.17.53.png "Screenshots")
+![Screenshots](https://rockstreet.co.za/santam/Screenshot_2019-08-14_at_11.17.53.png "Screenshots")
 
 
 ### Copyright reserved
