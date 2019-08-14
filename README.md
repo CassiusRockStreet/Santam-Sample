@@ -14,11 +14,17 @@ Follow demo link here (https://decimaltest.co.za/Santam/) OR (http://rockstreet.
 3. The site consist of few validations to give lead to the backend creators.
 4. The site carries with it the documented comment code as to which section does what.
 
---- Screen Shots
-![](https://decimalagency.com/wp-content/uploads/2018/10/decimal-logo-01.png"Decimal Agency")
+--- 
+### Screen Shots
+---
+![](https://rockstreet.co.za/santam/Screenshot 2019-08-14 at 11.17.06.png "Screenshots")
+![](https://rockstreet.co.za/santam/Screenshot 2019-08-14 at 11.18.23.png "Screenshots")
+![](https://rockstreet.co.za/santam/Screenshot 2019-08-14 at 11.17.32.png "Screenshots")
+![](https://rockstreet.co.za/santam/Screenshot 2019-08-14 at 11.16.53.png "Screenshots")
+![](https://rockstreet.co.za/santam/Screenshot 2019-08-14 at 11.17.53.png "Screenshots")
 
 
-## Copyright reserved
+### Copyright reserved
 ![Decimal Agency](https://decimalagency.com/wp-content/uploads/2018/10/decimal-logo-01.png "Decimal Agency")
 
 * Decimal Agency 2019 (https://decimalagency.com/)
